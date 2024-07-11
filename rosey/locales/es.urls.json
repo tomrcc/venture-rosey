@@ -1,15 +1,18 @@
 {
+	"404.html": {
+		"value": "404/index.html"
+	},
 	"booking/index.html": {
 		"original": "booking/index.html",
 		"value": "booking/index.html"
 	},
-	"404.html": {
-		"original": "404.html",
-		"value": "404/index.html"
-	},
 	"components/index.html": {
 		"original": "components/index.html",
 		"value": "components/index.html"
+	},
+	"contact/index.html": {
+		"original": "contact/index.html",
+		"value": "contact/index.html"
 	},
 	"index.html": {
 		"original": "index.html",
@@ -18,13 +21,5 @@
 	"terms-and-conditions/index.html": {
 		"original": "terms-and-conditions/index.html",
 		"value": "terms-and-conditions/index.html"
-	},
-	"schemas/page/index.html": {
-		"original": "schemas/page/index.html",
-		"value": "schemas/page/index.html"
-	},
-	"contact/index.html": {
-		"original": "contact/index.html",
-		"value": "contact/index.html"
 	}
 }

@@ -30,6 +30,21 @@ collections_config:
     schemas:
       default:
         path: src/schemas/page.html
+  translations:
+    path: rosey/translations
+    output: false
+    icon: translate
+    disable_add: false
+    add_options:
+      - name: Add Language
+        icon: translate
+        href: cloudcannon:settings/build
+    _inputs:
+      urlTranslation:
+        type: text
+        comment: Provide a translation for the URL that Rosey will build this page at.
+    disable_add_folder: true
+    disable_file_actions: true
 _inputs:
   favicon:
     type: image

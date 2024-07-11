@@ -1,44 +1,58 @@
-const pluginBookshop = require("@bookshop/eleventy-bookshop");
-const yaml = require("js-yaml");
-const svgContents = require("eleventy-plugin-svg-contents");
+const pluginBookshop = require('@bookshop/eleventy-bookshop');
+const yaml = require('js-yaml');
+const svgContents = require('eleventy-plugin-svg-contents');
 const esbuild = require('esbuild');
+const slugify = require('slugify');
 
 /* 11ty config imports */
-const image_shortcode = require('./_11ty_config/image_shortcode')
-const military_time = require('./_11ty_config/military_time_filter')
-const assign_local_liquid_tag = require('./_11ty_config/assign_local_liquid_tag')
-const contains_block_filter = require('./_11ty_config/contains_block_filter')
+const image_shortcode = require('./_11ty_config/image_shortcode');
+const military_time = require('./_11ty_config/military_time_filter');
+const assign_local_liquid_tag = require('./_11ty_config/assign_local_liquid_tag');
+const contains_block_filter = require('./_11ty_config/contains_block_filter');
 
-const MarkdownIt = require("markdown-it"),
+const MarkdownIt = require('markdown-it'),
   md = new MarkdownIt({
     html: true,
   });
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("src/assets/fonts");
-  eleventyConfig.addPassthroughCopy("src/assets/images");
-  eleventyConfig.addPassthroughCopy("src/assets/uploads");
-  eleventyConfig.addPassthroughCopy("css")
+  eleventyConfig.addPassthroughCopy('src/assets/fonts');
+  eleventyConfig.addPassthroughCopy('src/assets/images');
+  eleventyConfig.addPassthroughCopy('src/assets/uploads');
+  eleventyConfig.addPassthroughCopy('css');
   // Data extensions
-  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
-  eleventyConfig.addDataExtension("yml", (contents) => yaml.load(contents));
+  eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));
+  eleventyConfig.addDataExtension('yml', (contents) => yaml.load(contents));
 
   // Custom shortcodes
-  eleventyConfig.addShortcode("image", image_shortcode);
-  
-  eleventyConfig.addWatchTarget("component-library/");
-  
+  eleventyConfig.addShortcode('image', image_shortcode);
+
+  eleventyConfig.addWatchTarget('component-library/');
+
   // Plugins
   eleventyConfig.addPlugin(svgContents);
-  eleventyConfig.addPlugin(pluginBookshop({
-    bookshopLocations: ["component-library"],
-    pathPrefix: '',
-  }));
+  eleventyConfig.addPlugin(
+    pluginBookshop({
+      bookshopLocations: ['component-library'],
+      pathPrefix: '',
+    })
+  );
 
   // Filters
-  eleventyConfig.addFilter("markdownify", (markdown) => md.render(markdown));
-  eleventyConfig.addFilter("ymlify", (yml) => yaml.load(yml));
-  eleventyConfig.addFilter("militaryTime", military_time);
+  eleventyConfig.addFilter('markdownify', (markdown) => md.render(markdown));
+  eleventyConfig.addFilter('generateRoseyId', (text) => {
+    if (!text) {
+      return;
+    }
+    const lowerCaseText = text.toLowerCase();
+    const formattedText = lowerCaseText.replaceAll(
+      /(?:__[*#])|\[(.*?)\]\(.*?\)/gm,
+      /$1/
+    );
+    return slugify(formattedText, { remove: /[.*,:\/]/g });
+  });
+  eleventyConfig.addFilter('ymlify', (yml) => yaml.load(yml));
+  eleventyConfig.addFilter('militaryTime', military_time);
   eleventyConfig.addFilter('contains_block', contains_block_filter);
 
   // Tags
@@ -57,9 +71,9 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
-      dir: {
-          input: "src",
-          output: "_site"
-      }
-  }
-}
+    dir: {
+      input: 'src',
+      output: '_site',
+    },
+  };
+};

@@ -1,3 +1,4 @@
+source: ''
 paths:
   data: src/_data
   collections: ''
@@ -5,7 +6,7 @@ paths:
   static: ''
   uploads: src/assets/uploads
   includes: src/_includes
-  pages: ''
+  pages: 'src/pages'
 collections_config:
   data:
     path: src/_data

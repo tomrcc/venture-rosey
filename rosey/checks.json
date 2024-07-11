@@ -4,10 +4,10 @@
     "baseTotal": 0,
     "total": 0,
     "states": {
-      "missing": 0,
       "outdated": 0,
-      "unused": 0,
-      "current": 0
+      "current": 0,
+      "missing": 0,
+      "unused": 0
     },
     "keys": {}
   },
@@ -16,10 +16,10 @@
     "baseTotal": 0,
     "total": 0,
     "states": {
-      "outdated": 0,
       "unused": 0,
-      "missing": 0,
-      "current": 0
+      "outdated": 0,
+      "current": 0,
+      "missing": 0
     },
     "keys": {}
   },
@@ -28,10 +28,10 @@
     "baseTotal": 0,
     "total": 0,
     "states": {
-      "missing": 0,
-      "unused": 0,
       "outdated": 0,
-      "current": 0
+      "unused": 0,
+      "current": 0,
+      "missing": 0
     },
     "keys": {}
   },
@@ -40,10 +40,10 @@
     "baseTotal": 0,
     "total": 0,
     "states": {
-      "missing": 0,
-      "unused": 0,
       "outdated": 0,
-      "current": 0
+      "unused": 0,
+      "current": 0,
+      "missing": 0
     },
     "keys": {}
   }

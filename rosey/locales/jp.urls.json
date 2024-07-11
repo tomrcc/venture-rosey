@@ -6,20 +6,20 @@
 		"original": "booking/index.html",
 		"value": "booking/index.html"
 	},
-	"contact/index.html": {
-		"original": "contact/index.html",
-		"value": "contact/index.html"
-	},
 	"components/index.html": {
 		"original": "components/index.html",
 		"value": "components/index.html"
 	},
-	"index.html": {
-		"original": "index.html",
-		"value": "index.html"
+	"contact/index.html": {
+		"original": "contact/index.html",
+		"value": "contact/index.html"
 	},
 	"terms-and-conditions/index.html": {
 		"original": "terms-and-conditions/index.html",
 		"value": "terms-and-conditions/index.html"
+	},
+	"index.html": {
+		"original": "index.html",
+		"value": "index.html"
 	}
 }

@@ -1,8 +1,4 @@
 {
-	"sorry-but-the-page-you-were-trying-to-view-does-not-exist": {
-		"original": "    \n        <p>Sorry, but the page you were trying to view does not exist.</p>\n\n    ",
-		"value": "    \n        <p>Sorry, but the page you were trying to view does not exist.</p>\n\n    "
-	},
 	"###-how-do-i-use-the-service?-customers-want-to-know-all-the-information-before-making-a-final-decision-make-sure-you-provide-it-to-them-###-how-do-i-pay-for-the-service?-let-your-customers-know-if-they-can-pay-by-eftpos-or-credit-cardlessbrgreaterlessbrgreater": {
 		"original": "    \n        <h3><strong>How do I use the service?</strong></h3>\n<p>Customers want to know all the information before making a final decision. Make sure you provide it to them.</p>\n<h3><strong>How do I pay for the service?</strong></h3>\n<p>Let your customers know if they can pay by EFTPOS or credit card.<br><br></p>\n\n    ",
 		"value": "    \n        <h3><strong>How do I use the service?</strong></h3>\n<p>Customers want to know all the information before making a final decision. Make sure you provide it to them.</p>\n<h3><strong>How do I pay for the service?</strong></h3>\n<p>Let your customers know if they can pay by EFTPOS or credit card.<br><br></p>\n\n    "
@@ -26,6 +22,10 @@
 	"these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience": {
 		"original": "    \n        <p>These versatile cards can be used to talk about your services or products, or anything else you are keen to share with your audience.</p>\n\n    ",
 		"value": "    \n        <p>These versatile cards can be used to talk about your services or products, or anything else you are keen to share with your audience.</p>\n\n    "
+	},
+	"sorry-but-the-page-you-were-trying-to-view-does-not-exist": {
+		"original": "    \n        <p>Sorry, but the page you were trying to view does not exist.</p>\n\n    ",
+		"value": "    \n        <p>Sorry, but the page you were trying to view does not exist.</p>\n\n    "
 	},
 	"add-some-description-text-to-complement-the-block": {
 		"original": "    \n        <p>Add some description text to complement the block.</p>\n\n    ",

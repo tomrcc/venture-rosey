@@ -1,10 +1,10 @@
 {
-	"404.html": {
-		"value": "404/index.html"
-	},
 	"booking/index.html": {
 		"original": "booking/index.html",
 		"value": "booking/index.html"
+	},
+	"404.html": {
+		"value": "404/index.html"
 	},
 	"components/index.html": {
 		"original": "components/index.html",

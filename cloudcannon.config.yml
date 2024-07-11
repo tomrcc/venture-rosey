@@ -32,7 +32,7 @@ collections_config:
         path: '.cloudcannon/schemas/page.html'
   translations:
     path: rosey/translations
-    output: false
+    output: true
     icon: translate
     disable_add: false
     add_options:

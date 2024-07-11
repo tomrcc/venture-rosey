@@ -1,0 +1,144 @@
+urlTranslation: index.html
+_inputs:
+  $:
+    type: object
+    comment: "[See ](https://epic-garden.cloudvent.net/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (jp)
+          comment: Text to translate on [](https://epic-garden.cloudvent.net/)
+          inputs:
+            - p-100-happy-customer-reviews-p
+            - p-address-1-fake-st-faketown-p
+            - p-description-text-to-complement-the-block-p
+            - p-email-address-a-href-mailto-mybusiness-business-com-mybusiness-business-com-a-p
+            - p-great-customer-service-p
+            - p-john-smith-p
+            - p-opening-hours-9-5pm-monday-to-friday-p
+            - p-outstanding-product-reviews-p
+            - p-phone-number-312-325-326-p
+            - p-this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-by-using-openstreetmaps-but-also-any-other-contact-details-you-wish-to-share-with-your-customers-p
+            - p-whether-your-business-is-a-restaurant-a-barber-shop-a-gym-a-cafe-or-anything-else-our-template-has-you-covered-add-your-services-and-prices-to-the-list-below-p
+            - rGKhLzmx4/O9DMudCIf9kdrg91F1ODmDQRN0cO07vMA
+        - heading: Already translated (jp)
+          comment: Text already translated on [](https://epic-garden.cloudvent.net/)
+          inputs: []
+  p-100-happy-customer-reviews-p:
+    label: 100 Happy customer reviews
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=100%20Happy%20customer%2\
+      0reviews)"
+  p-address-1-fake-st-faketown-p:
+    label: "Address: 1 Fake St, Faketown"
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=Address%201%20Fake%20St%\
+      20Faketown)"
+  p-description-text-to-complement-the-block-p:
+    label: Description text to complement the block.
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=Description%20text%20to%\
+      20complement%20the%20block)"
+  p-email-address-a-href-mailto-mybusiness-business-com-mybusiness-business-com-a-p:
+    label: "Email address: mybusiness@business.com"
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=Email%20address%20mybusi\
+      ness@businesscom)"
+  p-great-customer-service-p:
+    label: Great customer service
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=Great%20customer%20servi\
+      ce)"
+  p-john-smith-p:
+    label: John Smith
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=John%20Smith)"
+  p-opening-hours-9-5pm-monday-to-friday-p:
+    label: "Opening hours: 9-5pm, Monday to Friday"
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=Opening%20hours%209-5pm%\
+      20Monday%20to%20Friday)"
+  p-outstanding-product-reviews-p:
+    label: Outstanding product reviews
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=Outstanding%20product%20\
+      reviews)"
+  p-phone-number-312-325-326-p:
+    label: "Phone number: 312 325 326"
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=Phone%20number%20312%203\
+      25%20326)"
+  p-this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-by-using-openstreetmaps-but-also-any-other-contact-details-you-wish-to-share-with-your-customers-p:
+    label: This is a simple yet powerful block to dis...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=This%20is%20a,with%20you\
+      r%20customers)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: This is a simple yet powerful block to display not only your location
+        by using OpenStreetMaps, but also any other contact details you wish to
+        share with your customers.
+  p-whether-your-business-is-a-restaurant-a-barber-shop-a-gym-a-cafe-or-anything-else-our-template-has-you-covered-add-your-services-and-prices-to-the-list-below-p:
+    label: Whether your business is a restaurant, a b...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=Whether%20your%20busines\
+      s,the%20list%20below)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: Whether your business is a restaurant, a barber shop, a gym, a café, or
+        anything else, our template has you covered. Add your services and
+        prices to the list below.
+  rGKhLzmx4/O9DMudCIf9kdrg91F1ODmDQRN0cO07vMA:
+    label: ""
+    hidden: true
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=)"
+p-100-happy-customer-reviews-p: ""
+p-address-1-fake-st-faketown-p: ""
+p-description-text-to-complement-the-block-p: ""
+p-email-address-a-href-mailto-mybusiness-business-com-mybusiness-business-com-a-p: ""
+p-great-customer-service-p: ""
+p-john-smith-p: ""
+p-opening-hours-9-5pm-monday-to-friday-p: ""
+p-outstanding-product-reviews-p: ""
+p-phone-number-312-325-326-p: ""
+p-this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-by-using-openstreetmaps-but-also-any-other-contact-details-you-wish-to-share-with-your-customers-p: ""
+p-whether-your-business-is-a-restaurant-a-barber-shop-a-gym-a-cafe-or-anything-else-our-template-has-you-covered-add-your-services-and-prices-to-the-list-below-p: ""
+rGKhLzmx4/O9DMudCIf9kdrg91F1ODmDQRN0cO07vMA: ""

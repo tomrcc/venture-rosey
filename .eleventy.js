@@ -40,19 +40,20 @@ module.exports = function (eleventyConfig) {
 
   // Filters
   eleventyConfig.addFilter('markdownify', (markdown) => md.render(markdown));
-  // eleventyConfig.addFilter('generateRoseyId', (text) => {
-  //   if (!text) {
-  //     console.log('No text to generate an id with');
-  //     return;
-  //   }
-  //   const lowerCaseText = text?.toLowerCase();
-  //   const formattedText = lowerCaseText.replaceAll(
-  //     /(?:__[*#])|\[(.*?)\]\(.*?\)/gm,
-  //     /$1/
-  //   );
-  //   console.log(formattedText);
-  //   return slugify(formattedText, { remove: /[.*,:\/]/g });
-  // });
+  eleventyConfig.addFilter('generateRoseyId', (text) => {
+    if (!text) {
+      console.log('No text to generate an id with');
+      return;
+    }
+    // const markdownText = md.render(text);
+    const lowerCaseText = text?.toLowerCase();
+    const formattedText = lowerCaseText.replaceAll(
+      /(?:__[*#])|\[(.*?)\]\(.*?\)/gm,
+      /$1/
+    );
+    console.log(formattedText);
+    return slugify(formattedText, { remove: /[.*,:\/]/g });
+  });
   eleventyConfig.addFilter('ymlify', (yml) => yaml.load(yml));
   eleventyConfig.addFilter('militaryTime', military_time);
   eleventyConfig.addFilter('contains_block', contains_block_filter);

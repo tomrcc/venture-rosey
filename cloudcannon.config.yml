@@ -1,22 +1,21 @@
-source: src
 paths:
-  data: _data
+  data: src/_data
   collections: ''
-  layouts: _includes
+  layouts: src/_includes
   static: ''
-  uploads: assets/uploads
-  includes: _includes
+  uploads: src/assets/uploads
+  includes: src/_includes
   pages: ''
 collections_config:
   data:
-    path: _data
+    path: src/_data
     output: false
     icon: insert_chart_outlined
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   pages:
-    path: pages
+    path: src/pages
     output: true
     filter:
       base: strict
@@ -32,7 +31,7 @@ collections_config:
         path: '.cloudcannon/schemas/page.html'
   translations:
     path: rosey/translations
-    output: true
+    output: false
     icon: translate
     disable_add: false
     add_options:

@@ -51,7 +51,6 @@ module.exports = function (eleventyConfig) {
       /(?:__[*#])|\[(.*?)\]\(.*?\)/gm,
       /$1/
     );
-    console.log(formattedText);
     return slugify(formattedText, { remove: /[.*,:\/]/g });
   });
   eleventyConfig.addFilter('ymlify', (yml) => yaml.load(yml));

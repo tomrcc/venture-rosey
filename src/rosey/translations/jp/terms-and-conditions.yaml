@@ -2,15 +2,13 @@ urlTranslation: terms-and-conditions/index.html
 _inputs:
   $:
     type: object
-    comment: "[See
-      terms-and-conditions/](https://epic-garden.cloudvent.net/terms-and-condit\
-      ions/)"
+    comment: "[See terms-and-conditions/](http://localhost:4321/terms-and-conditions/)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (jp)
           comment: Text to translate on
-            [terms-and-conditions/](https://epic-garden.cloudvent.net/terms-and-conditions/)
+            [terms-and-conditions/](http://localhost:4321/terms-and-conditions/)
           inputs:
             - "###-provide-all-the-necessary-information-these-terms-and-condit\
               ions-outline-the-rules-and-regulations-for-the-use-of-company-nam\
@@ -24,7 +22,7 @@ _inputs:
             - description-text-to-complement-the-block
         - heading: Already translated (jp)
           comment: Text already translated on
-            [terms-and-conditions/](https://epic-garden.cloudvent.net/terms-and-conditions/)
+            [terms-and-conditions/](http://localhost:4321/terms-and-conditions/)
           inputs: []
   "###-provide-all-the-necessary-information-these-terms-and-conditions-outline-the-rules-and-regulations-for-the-use-of-company-name's-website-located-at-websitecomlessbrgreaterlessbrgreaterby-accessing-this-website-we-assume-you-accept-these-terms-and-conditions-do-not-continue-to-use-website-name-if-you-do-not-agree-to-take-all-of-the-terms-and-conditions-stated-on-this-pagelessbrgreaterlessbrgreaterthe-following-terminology-applies-to-these-terms-and-conditions-privacy-statement-and-disclaimer-notice-and-all-agreements-":
     label: |2-
@@ -35,8 +33,8 @@ _inputs:
     type: textarea
     options: {}
     comment: "[See on
-      page](https://epic-garden.cloudvent.net/terms-and-conditions/#:~:text=Pro\
-      vide%20all,of%20any%20nature)"
+      page](http://localhost:4321/terms-and-conditions/#:~:text=Provide%20all,o\
+      f%20any%20nature)"
     context:
       open: false
       title: Untranslated Text
@@ -274,7 +272,7 @@ _inputs:
     type: textarea
     options: {}
     comment: "[See on
-      page](https://epic-garden.cloudvent.net/terms-and-conditions/#:~:text=Des\
-      cription%20text%20to%20complement%20the%20block)"
+      page](http://localhost:4321/terms-and-conditions/#:~:text=Description%20t\
+      ext%20to%20complement%20the%20block)"
 "###-provide-all-the-necessary-information-these-terms-and-conditions-outline-the-rules-and-regulations-for-the-use-of-company-name's-website-located-at-websitecomlessbrgreaterlessbrgreaterby-accessing-this-website-we-assume-you-accept-these-terms-and-conditions-do-not-continue-to-use-website-name-if-you-do-not-agree-to-take-all-of-the-terms-and-conditions-stated-on-this-pagelessbrgreaterlessbrgreaterthe-following-terminology-applies-to-these-terms-and-conditions-privacy-statement-and-disclaimer-notice-and-all-agreements-": ""
 description-text-to-complement-the-block: ""

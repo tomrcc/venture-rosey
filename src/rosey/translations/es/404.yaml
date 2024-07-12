@@ -2,17 +2,16 @@ urlTranslation: 404/index.html
 _inputs:
   $:
     type: object
-    comment: "[See 404/](https://epic-garden.cloudvent.net/404/)"
+    comment: "[See 404/](http://localhost:4321/404/)"
     options:
       place_groups_below: false
       groups:
-        - heading: Still to translate (jp)
-          comment: Text to translate on [404/](https://epic-garden.cloudvent.net/404/)
+        - heading: Still to translate (es)
+          comment: Text to translate on [404/](http://localhost:4321/404/)
           inputs:
             - sorry-but-the-page-you-were-trying-to-view-does-not-exist
-        - heading: Already translated (jp)
-          comment: Text already translated on
-            [404/](https://epic-garden.cloudvent.net/404/)
+        - heading: Already translated (es)
+          comment: Text already translated on [404/](http://localhost:4321/404/)
           inputs: []
   sorry-but-the-page-you-were-trying-to-view-does-not-exist:
     label: Sorry, but the page you were trying to vie...
@@ -20,8 +19,8 @@ _inputs:
     type: textarea
     options: {}
     comment: "[See on
-      page](https://epic-garden.cloudvent.net/404/#:~:text=Sorry%20but%20the,do\
-      es%20not%20exist)"
+      page](http://localhost:4321/404/#:~:text=Sorry%20but%20the,does%20not%20e\
+      xist)"
     context:
       open: false
       title: Untranslated Text

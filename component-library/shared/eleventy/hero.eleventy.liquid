@@ -1,6 +1,6 @@
 {% if hero %}
     {% bookshop {{hero._bookshop_name}} bind:hero %}
-{% elsif permalink != "/components/" %}
+{% else %}
     {% capture default_hero %}
         content:
             heading:

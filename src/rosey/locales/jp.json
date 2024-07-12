@@ -1,16 +1,4 @@
 {
-	"markdown:sorry-but-the-page-you-were-trying-to-view-does-not-exist": {
-		"original": "    \n        <p>Sorry, but the page you were trying to view does not exist.</p>\n\n    ",
-		"value": "    \n        <p>Sorry, but the page you were trying to view does not exist.</p>\n\n    "
-	},
-	"page-not-found": {
-		"original": "\n      Page Not Found\n    ",
-		"value": "\n      Page Not Found\n    "
-	},
-	"uMtr8wX//bU83YYJrdde2yb9/5bvdHT7YfcGfJkWcCc": {
-		"original": "\n      404\n    ",
-		"value": "\n      404\n    "
-	},
 	"a-hero-for-a-booking-form-page": {
 		"original": "\n      A hero for a booking form page\n    ",
 		"value": "\n      A hero for a booking form page\n    "
@@ -59,9 +47,21 @@
 		"original": "    \n        <p>These versatile cards can be used to talk about your services or products, or anything else you are keen to share with your audience.</p>\n\n    ",
 		"value": "    \n        <p>These versatile cards can be used to talk about your services or products, or anything else you are keen to share with your audience.</p>\n\n    "
 	},
+	"markdown:sorry-but-the-page-you-were-trying-to-view-does-not-exist": {
+		"original": "    \n        <p>Sorry, but the page you were trying to view does not exist.</p>\n\n    ",
+		"value": "    \n        <p>Sorry, but the page you were trying to view does not exist.</p>\n\n    "
+	},
+	"page-not-found": {
+		"original": "\n      Page Not Found\n    ",
+		"value": "\n      Page Not Found\n    "
+	},
+	"uMtr8wX//bU83YYJrdde2yb9/5bvdHT7YfcGfJkWcCc": {
+		"original": "\n      404\n    ",
+		"value": "\n      404\n    "
+	},
 	"a-contact-block": {
 		"original": "\n      A contact block\n    ",
-		"value": "\n      A contact block\n    "
+		"value": "接点ブロック"
 	},
 	"an-image-card-grid": {
 		"original": "\n      An image card grid\n    ",
@@ -113,19 +113,19 @@
 	},
 	"a-featured-icons-block": {
 		"original": "\n      A featured icons block\n    ",
-		"value": "\n      A featured icons block\n    "
+		"value": "注目のアイコンブロック"
 	},
 	"andldquo;their-customer-service-is-second-to-noneandrdquo;": {
 		"original": "\n      “Their customer service is second to none.”\n    ",
-		"value": "\n      “Their customer service is second to none.”\n    "
+		"value": "\"「彼らの顧客サービスは誰にも負けません。」\"\n"
 	},
 	"empower-your-business-with-this-brilliant-template": {
 		"original": "\n      Empower your business with this brilliant template\n    ",
-		"value": "\n      Empower your business with this brilliant template\n    "
+		"value": "この素晴らしいテンプレートでビジネスを強化しましょう"
 	},
 	"image-gallery": {
 		"original": "\n      Image Gallery\n    ",
-		"value": "\n      Image Gallery\n    "
+		"value": "イメージギャラリー"
 	},
 	"list-your-services-or-products": {
 		"original": "\n      List your services or products\n    ",

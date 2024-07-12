@@ -9,11 +9,6 @@ _inputs:
         - heading: Still to translate (jp)
           comment: Text to translate on [](https://epic-garden.cloudvent.net/)
           inputs:
-            - a-contact-block
-            - a-featured-icons-block
-            - andldquo;their-customer-service-is-second-to-noneandrdquo;
-            - empower-your-business-with-this-brilliant-template
-            - image-gallery
             - list-your-services-or-products
             - markdown:100percent-happy-customer-reviews
             - markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8
@@ -31,6 +26,11 @@ _inputs:
           comment: Text already translated on [](https://epic-garden.cloudvent.net/)
           inputs:
             - a-component-to-showcase-your-brand
+            - a-contact-block
+            - a-featured-icons-block
+            - andldquo;their-customer-service-is-second-to-noneandrdquo;
+            - empower-your-business-with-this-brilliant-template
+            - image-gallery
   a-component-to-showcase-your-brand:
     label: A component to showcase your brand
     hidden: false
@@ -393,11 +393,12 @@ _inputs:
         anything else, our template has you covered. Add your services and
         prices to the list below.
 a-component-to-showcase-your-brand: ブランドを紹介するためのコンポーネント
-a-contact-block: ""
-a-featured-icons-block: ""
-andldquo;their-customer-service-is-second-to-noneandrdquo;: ""
-empower-your-business-with-this-brilliant-template: ""
-image-gallery: ""
+a-contact-block: 接点ブロック
+a-featured-icons-block: 注目のアイコンブロック
+andldquo;their-customer-service-is-second-to-noneandrdquo;: |
+  "「彼らの顧客サービスは誰にも負けません。」"
+empower-your-business-with-this-brilliant-template: この素晴らしいテンプレートでビジネスを強化しましょう
+image-gallery: イメージギャラリー
 list-your-services-or-products: ""
 markdown:100percent-happy-customer-reviews: ""
 markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8: ""

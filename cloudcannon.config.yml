@@ -1,21 +1,21 @@
+source: src
 paths:
-  data: src/_data
-  collections: 'src'
-  layouts: src/_includes
+  data: _data
+  layouts: _includes
   static: ''
-  uploads: src/assets/uploads
-  includes: src/_includes
-  pages: 'src/pages'
+  uploads: assets/uploads
+  includes: _includes
+  pages: 'pages'
 collections_config:
   data:
-    path: src/_data
+    path: _data
     output: false
     icon: insert_chart_outlined
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   pages:
-    path: src/pages
+    path: pages
     output: true
     filter:
       base: strict

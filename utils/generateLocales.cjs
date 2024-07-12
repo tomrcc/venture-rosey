@@ -8,8 +8,8 @@ const {
   readFileWithFallback,
 } = require('./helpers/file-helper.cjs');
 
-const translationsDirPath = './rosey/translations';
-const localesDirPath = './rosey/locales';
+const translationsDirPath = './src/rosey/translations';
+const localesDirPath = './src/rosey/locales';
 
 const locales = process.env.LOCALES?.toLowerCase().split(',') || ['es', 'jp'];
 
@@ -150,9 +150,9 @@ async function processTranslation(
 
 // The generateLocales function runs on each separate locale
 async function generateLocale(locale) {
-  const baseFile = await fs.promises.readFile('./rosey/base.json');
+  const baseFile = await fs.promises.readFile('./src/rosey/base.json');
   const baseFileData = JSON.parse(baseFile.toString('utf-8')).keys;
-  const baseURLsFile = await fs.promises.readFile('./rosey/base.urls.json');
+  const baseURLsFile = await fs.promises.readFile('./src/rosey/base.urls.json');
   const baseURLFileData = JSON.parse(baseURLsFile.toString('utf-8')).keys;
 
   const localePath = path.join(localesDirPath, `${locale}.json`);

@@ -12,29 +12,61 @@ _inputs:
           comment: Text to translate on
             [terms-and-conditions/](https://epic-garden.cloudvent.net/terms-and-conditions/)
           inputs:
-            - provide-all-the-necessary-information-these-terms-and-conditions-outline-the-rules-and-regulations-for-the-use-of-company-name's-website-located-at-websitecomlessbrgreaterlessbrgreaterby-accessing-this-website-we-assume-you-accept-these-terms-and-conditions-do-not-continue-to-use-website-name-if-you-do-not-agree-to-take-all-of-the-terms-and-conditions-stated-on-this-pagelessbrgreaterlessbrgreaterthe-following-terminology-applies-to-these-terms-and-conditions-privacy-statement-and-disclaimer-notice-and-all-agreements-
+            - markdown:description-text-to-complement-the-block
+            - markdown:provide-all-the-necessary-information-these-terms-and-conditions-outline-the-rules-and-regulations-for-the-use-of-company-name's-website-located-at-websitecomlessbrgreaterlessbrgreaterby-accessing-this-website-we-assume-you-accept-these-terms-and-conditions-do-not-continue-to-use-website-name-if-you-do-not-agree-to-take-all-of-the-terms-and-conditions-stated-on-this-pagelessbrgreaterlessbrgreaterthe-following-terminology-applies-to-these-terms-and-conditions-privacy-statement-and-disclaimer-notice-and-all-agreements-
             - terms-and-conditions
         - heading: Already translated (es)
           comment: Text already translated on
             [terms-and-conditions/](https://epic-garden.cloudvent.net/terms-and-conditions/)
-          inputs:
-            - description-text-to-complement-the-block
-  description-text-to-complement-the-block:
+          inputs: []
+  markdown:description-text-to-complement-the-block:
     label: Description text to complement the block.
     hidden: false
-    type: textarea
-    options: {}
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+      bulletedlist: true
+      numberedlist: true
+      blockquote: true
+      superscript: true
+      subscript: true
+      code: true
+      horizontalrule: true
+      image: true
     comment: "[See on
       page](https://epic-garden.cloudvent.net/terms-and-conditions/#:~:text=Des\
       cription%20text%20to%20complement%20the%20block)"
-  provide-all-the-necessary-information-these-terms-and-conditions-outline-the-rules-and-regulations-for-the-use-of-company-name's-website-located-at-websitecomlessbrgreaterlessbrgreaterby-accessing-this-website-we-assume-you-accept-these-terms-and-conditions-do-not-continue-to-use-website-name-if-you-do-not-agree-to-take-all-of-the-terms-and-conditions-stated-on-this-pagelessbrgreaterlessbrgreaterthe-following-terminology-applies-to-these-terms-and-conditions-privacy-statement-and-disclaimer-notice-and-all-agreements-:
+  markdown:provide-all-the-necessary-information-these-terms-and-conditions-outline-the-rules-and-regulations-for-the-use-of-company-name's-website-located-at-websitecomlessbrgreaterlessbrgreaterby-accessing-this-website-we-assume-you-accept-these-terms-and-conditions-do-not-continue-to-use-website-name-if-you-do-not-agree-to-take-all-of-the-terms-and-conditions-stated-on-this-pagelessbrgreaterlessbrgreaterthe-following-terminology-applies-to-these-terms-and-conditions-privacy-statement-and-disclaimer-notice-and-all-agreements-:
     label: |2-
        Provide all the necessary information.
 
       T...
     hidden: false
-    type: textarea
-    options: {}
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+      bulletedlist: true
+      numberedlist: true
+      blockquote: true
+      superscript: true
+      subscript: true
+      code: true
+      horizontalrule: true
+      image: true
     comment: "[See on
       page](https://epic-garden.cloudvent.net/terms-and-conditions/#:~:text=Pro\
       vide%20all,of%20any%20nature)"
@@ -277,6 +309,6 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/terms-and-conditions/#:~:text=Ter\
       ms%20and%20conditions)"
-description-text-to-complement-the-block: Texto descriptivo para complementar el bloque.
-provide-all-the-necessary-information-these-terms-and-conditions-outline-the-rules-and-regulations-for-the-use-of-company-name's-website-located-at-websitecomlessbrgreaterlessbrgreaterby-accessing-this-website-we-assume-you-accept-these-terms-and-conditions-do-not-continue-to-use-website-name-if-you-do-not-agree-to-take-all-of-the-terms-and-conditions-stated-on-this-pagelessbrgreaterlessbrgreaterthe-following-terminology-applies-to-these-terms-and-conditions-privacy-statement-and-disclaimer-notice-and-all-agreements-: ""
+markdown:description-text-to-complement-the-block: ""
+markdown:provide-all-the-necessary-information-these-terms-and-conditions-outline-the-rules-and-regulations-for-the-use-of-company-name's-website-located-at-websitecomlessbrgreaterlessbrgreaterby-accessing-this-website-we-assume-you-accept-these-terms-and-conditions-do-not-continue-to-use-website-name-if-you-do-not-agree-to-take-all-of-the-terms-and-conditions-stated-on-this-pagelessbrgreaterlessbrgreaterthe-following-terminology-applies-to-these-terms-and-conditions-privacy-statement-and-disclaimer-notice-and-all-agreements-: ""
 terms-and-conditions: ""

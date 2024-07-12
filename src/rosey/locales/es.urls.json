@@ -2,13 +2,13 @@
 	"404.html": {
 		"value": "404/index.html"
 	},
-	"booking/index.html": {
-		"original": "booking/index.html",
-		"value": "booking/index.html"
-	},
 	"components/index.html": {
 		"original": "components/index.html",
 		"value": "components/index.html"
+	},
+	"booking/index.html": {
+		"original": "booking/index.html",
+		"value": "booking/index.html"
 	},
 	"contact/index.html": {
 		"original": "contact/index.html",

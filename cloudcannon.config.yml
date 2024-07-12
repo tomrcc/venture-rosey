@@ -1,4 +1,4 @@
-source: ''
+source: '.'
 paths:
   data: src/_data
   collections: 'src'

@@ -9,6 +9,13 @@ _inputs:
         - heading: Still to translate (es)
           comment: Text to translate on [](https://epic-garden.cloudvent.net/)
           inputs:
+            - a-component-to-showcase-your-brand
+            - a-contact-block
+            - a-featured-icons-block
+            - andldquo;their-customer-service-is-second-to-noneandrdquo;
+            - empower-your-business-with-this-brilliant-template
+            - image-gallery
+            - list-your-services-or-products
             - rGKhLzmx4/O9DMudCIf9kdrg91F1ODmDQRN0cO07vMA
         - heading: Already translated (es)
           comment: Text already translated on [](https://epic-garden.cloudvent.net/)
@@ -32,6 +39,29 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/#:~:text=100%20Happy%20customer%2\
       0reviews)"
+  a-component-to-showcase-your-brand:
+    label: A component to showcase your brand
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=A%20component%20to%20sho\
+      wcase%20your%20brand)"
+  a-contact-block:
+    label: A contact block
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=A%20contact%20block)"
+  a-featured-icons-block:
+    label: A featured icons block
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=A%20featured%20icons%20b\
+      lock)"
   address-1-fake-st-faketown:
     label: "Address: 1 Fake St, Faketown"
     hidden: false
@@ -40,6 +70,19 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/#:~:text=Address%201%20Fake%20St%\
       20Faketown)"
+  andldquo;their-customer-service-is-second-to-noneandrdquo;:
+    label: “Their customer service is second to none....
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=%E2%80%9CTheir%20custome\
+      r%20service,second%20to%20none%E2%80%9D)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: “Their customer service is second to none.”
   description-text-to-complement-the-block:
     label: Description text to complement the block.
     hidden: false
@@ -56,6 +99,19 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/#:~:text=Email%20address%20mybusi\
       ness@businesscom)"
+  empower-your-business-with-this-brilliant-template:
+    label: Empower your business with this brilliant ...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=Empower%20your%20busines\
+      s,this%20brilliant%20template)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: Empower your business with this brilliant template
   great-customer-service:
     label: Great customer service
     hidden: false
@@ -64,12 +120,26 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/#:~:text=Great%20customer%20servi\
       ce)"
+  image-gallery:
+    label: Image Gallery
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=Image%20Gallery)"
   john-smith:
     label: John Smith
     hidden: false
     type: text
     options: {}
     comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=John%20Smith)"
+  list-your-services-or-products:
+    label: List your services or products
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=List%20your%20services%2\
+      0or%20products)"
   opening-hours-9-5pm-monday-to-friday:
     label: "Opening hours: 9-5pm, Monday to Friday"
     hidden: false
@@ -131,11 +201,18 @@ _inputs:
         anything else, our template has you covered. Add your services and
         prices to the list below.
 100percent-happy-customer-reviews: 100% opiniones de clientes satisfechos
+a-component-to-showcase-your-brand: ""
+a-contact-block: ""
+a-featured-icons-block: ""
 address-1-fake-st-faketown: "Dirección: 1 Fake St, Faketown"
+andldquo;their-customer-service-is-second-to-noneandrdquo;: ""
 description-text-to-complement-the-block: Texto descriptivo para complementar el bloque.
 email-address-mybusiness@businesscom: "Dirección de correo electrónico: mybusiness@business.com"
+empower-your-business-with-this-brilliant-template: ""
 great-customer-service: Gran servicio al cliente
+image-gallery: ""
 john-smith: John Smith
+list-your-services-or-products: ""
 opening-hours-9-5pm-monday-to-friday: Horario de apertura 9-5pm de lunes a viernes
 outstanding-product-reviews: Reseñas de productos excepcionales
 phone-number-312-325-326: "Número de teléfono: 312 325 326"

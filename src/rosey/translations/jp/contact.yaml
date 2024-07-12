@@ -13,7 +13,6 @@ _inputs:
             - an-image-card-grid
             - bite-sized-information
             - contact-us
-            - eyebrow-heading
             - markdown:add-some-description-text-to-complement-the-block
             - markdown:address-1-fake-st-faketown
             - markdown:email-address-mybusiness@businesscom
@@ -24,13 +23,14 @@ _inputs:
             - markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience
             - markdown:this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-by-using-openstreetmaps-but-also-any-other-contact-details-you-wish-to-share-with-your-customers
             - primary-heading
-            - skip-to-contents
             - submit
         - heading: Already translated (jp)
           comment: Text already translated on
             [contact/](https://epic-garden.cloudvent.net/contact/)
           inputs:
             - a-contact-block
+            - eyebrow-heading
+            - skip-to-contents
   a-contact-block:
     label: A contact block
     hidden: false
@@ -343,14 +343,14 @@ bite-sized-information: ""
 contact-us: ""
 eyebrow-heading: 眉頭
 markdown:add-some-description-text-to-complement-the-block: ""
-markdown:address-1-fake-st-faketown: ""
-markdown:email-address-mybusiness@businesscom: ""
+markdown:address-1-fake-st-faketown: 住所：1 Fake St, Faketown
+markdown:email-address-mybusiness@businesscom: 電子メールアドレス：
 markdown:invite-your-customers-to-get-in-touch-with-you: ""
-markdown:opening-hours-9-5pm-monday-to-friday: ""
-markdown:phone-number-312-325-326: ""
+markdown:opening-hours-9-5pm-monday-to-friday: "営業時間: 月曜日から金曜日の 9 時から 17 時まで"
+markdown:phone-number-312-325-326: 電話番号： 312 325 326
 markdown:these-image-cards-combine-a-short-written-message-and-a-strong-visual-image: ""
 markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience: ""
-markdown:this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-by-using-openstreetmaps-but-also-any-other-contact-details-you-wish-to-share-with-your-customers: ""
+markdown:this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-by-using-openstreetmaps-but-also-any-other-contact-details-you-wish-to-share-with-your-customers: これは、OpenStreetMaps を使用して現在地だけでなく、顧客と共有したいその他の連絡先の詳細も表示する、シンプルかつ強力なブロックです。
 primary-heading: ""
 skip-to-contents: コンテンツへスキップ
 submit: ""

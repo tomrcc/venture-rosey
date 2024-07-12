@@ -341,7 +341,7 @@ a-contact-block: Un bloque de contactos
 an-image-card-grid: ""
 bite-sized-information: ""
 contact-us: ""
-eyebrow-heading: ""
+eyebrow-heading: Encabezado de cejas
 markdown:add-some-description-text-to-complement-the-block: ""
 markdown:address-1-fake-st-faketown: DIRECCIÓN
 markdown:email-address-mybusiness@businesscom: Dirección de correo electrónico
@@ -355,5 +355,5 @@ markdown:this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-b
   usando OpenStreetMaps, sino también cualquier otro detalle de contacto que
   desee compartir con sus clientes.
 primary-heading: ""
-skip-to-contents: ""
+skip-to-contents: Saltar al contenido
 submit: ""

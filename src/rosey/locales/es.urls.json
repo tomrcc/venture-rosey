@@ -10,12 +10,12 @@
 		"original": "index.html",
 		"value": "index.html"
 	},
-	"contact/index.html": {
-		"original": "contact/index.html",
-		"value": "contact/index.html"
-	},
 	"terms-and-conditions/index.html": {
 		"original": "terms-and-conditions/index.html",
 		"value": "terms-and-conditions/index.html"
+	},
+	"contact/index.html": {
+		"original": "contact/index.html",
+		"value": "contact/index.html"
 	}
 }

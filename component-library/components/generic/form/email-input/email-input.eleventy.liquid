@@ -1,6 +1,6 @@
 {% assign_local c = "c-email-input" %}
 <div class="{{ c }}">
-    <label class="{{ c }}__label" for="{{ id }}">{{ label }}{% if required %} *{% endif %}</label>
+    <label class="{{ c }}__label" for="{{ id }}" data-rosey="{{ label | generateRoseyId }}">{{ label }}{% if required %} *{% endif %}</label>
     <input class="{{ c }}__input"
         type="email" 
         id="{{ id }}" 

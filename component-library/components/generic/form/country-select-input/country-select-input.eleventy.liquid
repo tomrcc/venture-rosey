@@ -1,6 +1,6 @@
 {% assign_local c = "c-country-select-input" %}
 <div class="{{ c }}">
-  <label class="{{ c }}__label" for="{{ id }}">{{ label }}</label>
+  <label class="{{ c }}__label" for="{{ id }}" data-rosey="{{ label | generateRoseyId }}">{{ label }}</label>
   <select class="{{ c }}__input"
     name="{{ label }}"
     id="{{ id }}"

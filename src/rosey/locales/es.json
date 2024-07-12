@@ -1,7 +1,23 @@
 {
+	"book-now": {
+		"original": "Book Now",
+		"value": "Reservar ahora"
+	},
+	"contact-us": {
+		"original": "Contact Us",
+		"value": "Contacta con nosotros"
+	},
+	"markdown:(c)enter-your-copyright-and-terms-and-conditions": {
+		"original": "<p>©Enter your copyright and <a href=\"/terms-and-conditions/\" title=\"Terms and Conditions\">terms and conditions</a>.</p>\n",
+		"value": "<p>©Enter your copyright and <a href=\"/terms-and-conditions/\" title=\"Terms and Conditions\">terms and conditions</a>.</p>\n"
+	},
 	"markdown:sorry-but-the-page-you-were-trying-to-view-does-not-exist": {
 		"original": "    \n        <p>Sorry, but the page you were trying to view does not exist.</p>\n\n    ",
 		"value": "    \n        <p>Sorry, but the page you were trying to view does not exist.</p>\n\n    "
+	},
+	"our-services": {
+		"original": "Our Services",
+		"value": "Nuestros servicios"
 	},
 	"page-not-found": {
 		"original": "\n      Page Not Found\n    ",
@@ -14,6 +30,10 @@
 	"uMtr8wX//bU83YYJrdde2yb9/5bvdHT7YfcGfJkWcCc": {
 		"original": "\n      404\n    ",
 		"value": "\n      404\n    "
+	},
+	"JUOZuK3mv2fsD+0HEknH4QXO64Shr8+Csd6ZO2ejAUE": {
+		"original": "",
+		"value": ""
 	},
 	"a-hero-for-a-booking-form-page": {
 		"original": "\n      A hero for a booking form page\n    ",
@@ -39,17 +59,25 @@
 		"original": "\n      Bite-sized information\n    ",
 		"value": "Información breve"
 	},
-	"book-now": {
-		"original": "\n        Book Now\n        \n            <!--bookshop-live name(generic/hero-library-icon) params(hero_library_icon_name:arrow_type icon_type:\"solid\" icon_size:'extra-small'  color:'transparent') context() -->\n\n\n\n<span class=\"c-hero-library-icon c-hero-library-icon--extra-small c-hero-library-icon--solid \" style=\"--c-hero-library-icon-color: transparent\">\n    \n        <svg aria-hidden=\"true\" class=\"c-hero-library-icon__svg\" fill=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path clip-rule=\"evenodd\" d=\"M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z\" fill-rule=\"evenodd\"></path>\n</svg>\n    \n</span>\n<!--bookshop-live end-->\n        \n    ",
-		"value": "Reservar ahora"
-	},
 	"booking-form": {
 		"original": "\n      Booking form\n    ",
 		"value": "Formulario de reserva"
 	},
+	"choose-a-date": {
+		"original": "Choose a date *",
+		"value": "Choose a date *"
+	},
+	"email-address": {
+		"original": "Email address *",
+		"value": "Email address *"
+	},
 	"eyebrow-heading": {
 		"original": "\n      Eyebrow Heading\n    ",
 		"value": "Encabezado de cejas"
+	},
+	"full-name": {
+		"original": "Full name *",
+		"value": "Full name *"
 	},
 	"heading": {
 		"original": "\n      Heading\n    ",
@@ -87,6 +115,14 @@
 		"original": "    \n        <p>These versatile cards can be used to talk about your services or products, or anything else you are keen to share with your audience.</p>\n\n    ",
 		"value": "<p>Estas tarjetas versátiles se pueden utilizar para hablar sobre sus servicios o productos, o cualquier otra cosa que desee compartir con su audiencia.</p>\n"
 	},
+	"message": {
+		"original": "Message",
+		"value": "Message"
+	},
+	"phone-number": {
+		"original": "Phone number",
+		"value": "Phone number"
+	},
 	"tag-or-label-headline": {
 		"original": "\n      Tag or label headline\n    ",
 		"value": "Título de etiqueta o etiqueta"
@@ -98,10 +134,6 @@
 	"an-image-card-grid": {
 		"original": "\n      An image card grid\n    ",
 		"value": "Una cuadrícula de tarjeta de imagen"
-	},
-	"contact-us": {
-		"original": "\n      Contact us\n    ",
-		"value": "Contacta con nosotros"
 	},
 	"markdown:add-some-description-text-to-complement-the-block": {
 		"original": "    \n        <p>Add some description text to complement the block.</p>\n\n    ",
@@ -163,6 +195,26 @@
 		"original": "\n      “Their customer service is second to none.”\n    ",
 		"value": "\"Su servicio al cliente es insuperable.\""
 	},
+	"dollar34": {
+		"original": "$34",
+		"value": "$34"
+	},
+	"dollar40": {
+		"original": "$40",
+		"value": "$40"
+	},
+	"dollar7599": {
+		"original": "$75.99",
+		"value": "$75.99"
+	},
+	"dollar79-annually": {
+		"original": "$79 annually",
+		"value": "$79 annually"
+	},
+	"dollar95-per-month": {
+		"original": "$95 per month",
+		"value": "$95 per month"
+	},
 	"empower-your-business-with-this-brilliant-template": {
 		"original": "\n      Empower your business with this brilliant template\n    ",
 		"value": "Potencia tu negocio con esta brillante plantilla"
@@ -207,9 +259,37 @@
 		"original": "    \n        <p>Whether your business is a restaurant, a barber shop, a gym, a café, or anything else, our template has you covered. Add your services and prices to the list below.</p>\n\n    ",
 		"value": "<p>Ya sea que su negocio sea un restaurante, una barbería, un gimnasio, una cafetería o cualquier otra cosa, nuestra plantilla lo tiene cubierto. Agregue sus servicios y precios a la lista a continuación.</p>\n"
 	},
-	"our-services": {
-		"original": "\n        Our services\n        \n            <!--bookshop-live name(generic/hero-library-icon) params(hero_library_icon_name:arrow_type icon_type:\"solid\" icon_size:'extra-small'  color:'transparent') context() -->\n\n\n\n<span class=\"c-hero-library-icon c-hero-library-icon--extra-small c-hero-library-icon--solid \" style=\"--c-hero-library-icon-color: transparent\">\n    \n        <svg aria-hidden=\"true\" class=\"c-hero-library-icon__svg\" fill=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path clip-rule=\"evenodd\" d=\"M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z\" fill-rule=\"evenodd\"></path>\n</svg>\n    \n</span>\n<!--bookshop-live end-->\n        \n    ",
-		"value": "Nuestros servicios"
+	"price-on-application": {
+		"original": "Price on application",
+		"value": "Price on application"
+	},
+	"product-1": {
+		"original": "Product 1 ",
+		"value": "Product 1 "
+	},
+	"product-2": {
+		"original": "Product 2",
+		"value": "Product 2"
+	},
+	"product-3": {
+		"original": "Product 3",
+		"value": "Product 3"
+	},
+	"service-1": {
+		"original": "Service 1",
+		"value": "Service 1"
+	},
+	"service-2": {
+		"original": "Service 2",
+		"value": "Service 2"
+	},
+	"service-3": {
+		"original": "Service 3",
+		"value": "Service 3"
+	},
+	"subheadings-available": {
+		"original": "Subheadings available",
+		"value": "Subheadings available"
 	},
 	"what-your-customers-say": {
 		"original": "\n      What your customers say\n    ",

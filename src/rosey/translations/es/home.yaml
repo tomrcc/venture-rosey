@@ -9,7 +9,22 @@ _inputs:
         - heading: Still to translate (es)
           comment: Text to translate on [](https://epic-garden.cloudvent.net/)
           inputs:
+            - contact-us
+            - dollar34
+            - dollar40
+            - dollar7599
+            - dollar79-annually
+            - dollar95-per-month
+            - markdown:(c)enter-your-copyright-and-terms-and-conditions
             - markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8
+            - price-on-application
+            - product-1
+            - product-2
+            - product-3
+            - service-1
+            - service-2
+            - service-3
+            - subheadings-available
         - heading: Already translated (es)
           comment: Text already translated on [](https://epic-garden.cloudvent.net/)
           inputs:
@@ -95,9 +110,46 @@ _inputs:
   book-now:
     label: Book Now
     hidden: false
-    type: textarea
+    type: text
     options: {}
     comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=Book%20Now)"
+  contact-us:
+    label: Contact Us
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=Contact%20Us)"
+  dollar34:
+    label: "34"
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=34)"
+  dollar40:
+    label: "40"
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=40)"
+  dollar7599:
+    label: "75.99"
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=7599)"
+  dollar79-annually:
+    label: 79 annually
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=79%20annually)"
+  dollar95-per-month:
+    label: 95 per month
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=95%20per%20month)"
   empower-your-business-with-this-brilliant-template:
     label: Empower your business with this brilliant ...
     hidden: false
@@ -146,6 +198,36 @@ _inputs:
     type: textarea
     options: {}
     comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=Load%20more)"
+  markdown:(c)enter-your-copyright-and-terms-and-conditions:
+    label: ©Enter your copyright and terms and condit...
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+      bulletedlist: true
+      numberedlist: true
+      blockquote: true
+      superscript: true
+      subscript: true
+      code: true
+      horizontalrule: true
+      image: true
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=%C2%A9Enter%20your%20cop\
+      yright,terms%20and%20conditions)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: ©Enter your copyright and [terms and conditions](/terms-and-conditions/
+        "Terms and Conditions").
   markdown:100percent-happy-customer-reviews:
     label: 100 Happy customer reviews
     hidden: false
@@ -445,11 +527,55 @@ _inputs:
         anything else, our template has you covered. Add your services and
         prices to the list below.
   our-services:
-    label: Our services
+    label: Our Services
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=Our%20Services)"
+  price-on-application:
+    label: Price on application
     hidden: false
     type: textarea
     options: {}
-    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=Our%20services)"
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=Price%20on%20application\
+      )"
+  product-1:
+    label: Product 1
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=Product%201)"
+  product-2:
+    label: Product 2
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=Product%202)"
+  product-3:
+    label: Product 3
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=Product%203)"
+  service-1:
+    label: Service 1
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=Service%201)"
+  service-2:
+    label: Service 2
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=Service%202)"
+  service-3:
+    label: Service 3
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/#:~:text=Service%203)"
   skip-to-contents:
     label: Skip to contents
     hidden: false
@@ -457,6 +583,13 @@ _inputs:
     options: {}
     comment: "[See on
       page](https://epic-garden.cloudvent.net/#:~:text=Skip%20to%20contents)"
+  subheadings-available:
+    label: Subheadings available
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/#:~:text=Subheadings%20available)"
   tag-or-label-headline:
     label: Tag or label headline
     hidden: false
@@ -480,12 +613,19 @@ a-simple-gallery: una galería sencilla
 a-small-business-template: Una plantilla para pequeñas empresas
 andldquo;their-customer-service-is-second-to-noneandrdquo;: '"Su servicio al cliente es insuperable."'
 book-now: Reservar ahora
+contact-us: ""
+dollar34: ""
+dollar40: ""
+dollar7599: ""
+dollar79-annually: ""
+dollar95-per-month: ""
 empower-your-business-with-this-brilliant-template: Potencia tu negocio con esta brillante plantilla
 eyebrow-heading: Encabezado de cejas
 image-gallery: galería de imágenes
 let-your-features-shine: deja que tus rasgos brillen
 list-your-services-or-products: Enumere sus servicios o productos
 load-more: Carga más
+markdown:(c)enter-your-copyright-and-terms-and-conditions: ""
 markdown:100percent-happy-customer-reviews: Opiniones de clientes 100% satisfechos
 markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8: ""
 markdown:address-1-fake-st-faketown: DIRECCIÓN
@@ -505,6 +645,14 @@ markdown:whether-your-business-is-a-restaurant-a-barber-shop-a-gym-a-cafe-or-any
   cafetería o cualquier otra cosa, nuestra plantilla lo tiene cubierto. Agregue
   sus servicios y precios a la lista a continuación.
 our-services: Nuestros servicios
+price-on-application: ""
+product-1: ""
+product-2: ""
+product-3: ""
+service-1: ""
+service-2: ""
+service-3: ""
 skip-to-contents: Saltar al contenido
+subheadings-available: ""
 tag-or-label-headline: Título de etiqueta o etiqueta
 what-your-customers-say: Lo que dicen tus clientes

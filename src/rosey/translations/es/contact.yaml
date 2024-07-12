@@ -11,12 +11,16 @@ _inputs:
             [contact/](https://epic-garden.cloudvent.net/contact/)
           inputs:
             - an-image-card-grid
+            - bite-sized-information
             - contact-us
+            - eyebrow-heading
             - markdown:add-some-description-text-to-complement-the-block
             - markdown:invite-your-customers-to-get-in-touch-with-you
             - markdown:these-image-cards-combine-a-short-written-message-and-a-strong-visual-image
             - markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience
             - primary-heading
+            - skip-to-contents
+            - submit
         - heading: Already translated (es)
           comment: Text already translated on
             [contact/](https://epic-garden.cloudvent.net/contact/)
@@ -43,6 +47,14 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/contact/#:~:text=An%20image%20car\
       d%20grid)"
+  bite-sized-information:
+    label: Bite-sized information
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Bite-sized%20inf\
+      ormation)"
   contact-us:
     label: Contact us
     hidden: false
@@ -50,6 +62,14 @@ _inputs:
     options: {}
     comment: "[See on
       page](https://epic-garden.cloudvent.net/contact/#:~:text=Contact%20us)"
+  eyebrow-heading:
+    label: Eyebrow Heading
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Eyebrow%20Headin\
+      g)"
   markdown:add-some-description-text-to-complement-the-block:
     label: Add some description text to complement th...
     hidden: false
@@ -303,9 +323,25 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/contact/#:~:text=Primary%20Headin\
       g)"
+  skip-to-contents:
+    label: Skip to contents
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Skip%20to%20cont\
+      ents)"
+  submit:
+    label: Submit
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/contact/#:~:text=Submit)"
 a-contact-block: Un bloque de contactos
 an-image-card-grid: ""
+bite-sized-information: ""
 contact-us: ""
+eyebrow-heading: ""
 markdown:add-some-description-text-to-complement-the-block: ""
 markdown:address-1-fake-st-faketown: DIRECCIÓN
 markdown:email-address-mybusiness@businesscom: Dirección de correo electrónico
@@ -319,3 +355,5 @@ markdown:this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-b
   usando OpenStreetMaps, sino también cualquier otro detalle de contacto que
   desee compartir con sus clientes.
 primary-heading: ""
+skip-to-contents: ""
+submit: ""

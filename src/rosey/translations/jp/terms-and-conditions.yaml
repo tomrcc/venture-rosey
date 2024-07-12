@@ -12,13 +12,23 @@ _inputs:
           comment: Text to translate on
             [terms-and-conditions/](https://epic-garden.cloudvent.net/terms-and-conditions/)
           inputs:
+            - eyebrow-heading
             - markdown:description-text-to-complement-the-block
             - markdown:provide-all-the-necessary-information-these-terms-and-conditions-outline-the-rules-and-regulations-for-the-use-of-company-name's-website-located-at-websitecomlessbrgreaterlessbrgreaterby-accessing-this-website-we-assume-you-accept-these-terms-and-conditions-do-not-continue-to-use-website-name-if-you-do-not-agree-to-take-all-of-the-terms-and-conditions-stated-on-this-pagelessbrgreaterlessbrgreaterthe-following-terminology-applies-to-these-terms-and-conditions-privacy-statement-and-disclaimer-notice-and-all-agreements-
+            - skip-to-contents
             - terms-and-conditions
         - heading: Already translated (jp)
           comment: Text already translated on
             [terms-and-conditions/](https://epic-garden.cloudvent.net/terms-and-conditions/)
           inputs: []
+  eyebrow-heading:
+    label: Eyebrow Heading
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/terms-and-conditions/#:~:text=Eye\
+      brow%20Heading)"
   markdown:description-text-to-complement-the-block:
     label: Description text to complement the block.
     hidden: false
@@ -301,6 +311,14 @@ _inputs:
         As long as the website and the information and services on the website
         are provided free of charge, we will not be liable for any loss or
         damage of any nature.
+  skip-to-contents:
+    label: Skip to contents
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/terms-and-conditions/#:~:text=Ski\
+      p%20to%20contents)"
   terms-and-conditions:
     label: Terms and conditions
     hidden: false
@@ -309,6 +327,8 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/terms-and-conditions/#:~:text=Ter\
       ms%20and%20conditions)"
+eyebrow-heading: ""
 markdown:description-text-to-complement-the-block: ""
 markdown:provide-all-the-necessary-information-these-terms-and-conditions-outline-the-rules-and-regulations-for-the-use-of-company-name's-website-located-at-websitecomlessbrgreaterlessbrgreaterby-accessing-this-website-we-assume-you-accept-these-terms-and-conditions-do-not-continue-to-use-website-name-if-you-do-not-agree-to-take-all-of-the-terms-and-conditions-stated-on-this-pagelessbrgreaterlessbrgreaterthe-following-terminology-applies-to-these-terms-and-conditions-privacy-statement-and-disclaimer-notice-and-all-agreements-: ""
+skip-to-contents: ""
 terms-and-conditions: ""

@@ -11,6 +11,7 @@ _inputs:
           inputs:
             - markdown:sorry-but-the-page-you-were-trying-to-view-does-not-exist
             - page-not-found
+            - skip-to-contents
             - uMtr8wX//bU83YYJrdde2yb9/5bvdHT7YfcGfJkWcCc
         - heading: Already translated (jp)
           comment: Text already translated on
@@ -52,6 +53,14 @@ _inputs:
     options: {}
     comment: "[See on
       page](https://epic-garden.cloudvent.net/404/#:~:text=Page%20Not%20Found)"
+  skip-to-contents:
+    label: Skip to contents
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/404/#:~:text=Skip%20to%20contents\
+      )"
   uMtr8wX//bU83YYJrdde2yb9/5bvdHT7YfcGfJkWcCc:
     label: "404"
     hidden: false
@@ -60,4 +69,5 @@ _inputs:
     comment: "[See on page](https://epic-garden.cloudvent.net/404/#:~:text=404)"
 markdown:sorry-but-the-page-you-were-trying-to-view-does-not-exist: ""
 page-not-found: ""
+skip-to-contents: ""
 uMtr8wX//bU83YYJrdde2yb9/5bvdHT7YfcGfJkWcCc: ""

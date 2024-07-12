@@ -9,16 +9,34 @@ _inputs:
         - heading: Still to translate (es)
           comment: Text to translate on [404/](https://epic-garden.cloudvent.net/404/)
           inputs:
-            - sorry-but-the-page-you-were-trying-to-view-does-not-exist
+            - markdown:sorry-but-the-page-you-were-trying-to-view-does-not-exist
+            - page-not-found
+            - uMtr8wX//bU83YYJrdde2yb9/5bvdHT7YfcGfJkWcCc
         - heading: Already translated (es)
           comment: Text already translated on
             [404/](https://epic-garden.cloudvent.net/404/)
           inputs: []
-  sorry-but-the-page-you-were-trying-to-view-does-not-exist:
+  markdown:sorry-but-the-page-you-were-trying-to-view-does-not-exist:
     label: Sorry, but the page you were trying to vie...
     hidden: false
-    type: textarea
-    options: {}
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+      bulletedlist: true
+      numberedlist: true
+      blockquote: true
+      superscript: true
+      subscript: true
+      code: true
+      horizontalrule: true
+      image: true
     comment: "[See on
       page](https://epic-garden.cloudvent.net/404/#:~:text=Sorry%20but%20the,do\
       es%20not%20exist)"
@@ -27,4 +45,19 @@ _inputs:
       title: Untranslated Text
       icon: translate
       content: Sorry, but the page you were trying to view does not exist.
-sorry-but-the-page-you-were-trying-to-view-does-not-exist: ""
+  page-not-found:
+    label: Page Not Found
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/404/#:~:text=Page%20Not%20Found)"
+  uMtr8wX//bU83YYJrdde2yb9/5bvdHT7YfcGfJkWcCc:
+    label: "404"
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/404/#:~:text=404)"
+markdown:sorry-but-the-page-you-were-trying-to-view-does-not-exist: ""
+page-not-found: ""
+uMtr8wX//bU83YYJrdde2yb9/5bvdHT7YfcGfJkWcCc: ""

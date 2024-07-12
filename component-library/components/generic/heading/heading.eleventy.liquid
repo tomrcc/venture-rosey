@@ -2,7 +2,7 @@
 
 <header class="{{ c }}">
   {% if primary_heading %}
-    <{{primary_heading_hierarchy | default: "h2"}} class="{{ c }}__primary_heading">
+    <{{primary_heading_hierarchy | default: "h2"}} class="{{ c }}__primary_heading" data-rosey="{{ primary_heading | generateRoseyId }}">
       {{ primary_heading }}
     </{{primary_heading_hierarchy | default: "h2"}}>
   {% endif %}

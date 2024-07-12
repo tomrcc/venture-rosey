@@ -1,0 +1,122 @@
+urlTranslation: booking/index.html
+_inputs:
+  $:
+    type: object
+    comment: "[See booking/](https://epic-garden.cloudvent.net/booking/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (jp)
+          comment: Text to translate on
+            [booking/](https://epic-garden.cloudvent.net/booking/)
+          inputs:
+            - "###-how-do-i-use-the-service?-customers-want-to-know-all-the-inf\
+              ormation-before-making-a-final-decision-make-sure-you-provide-it-\
+              to-them-###-how-do-i-pay-for-the-service?-let-your-customers-know\
+              -if-they-can-pay-by-eftpos-or-credit-cardlessbrgreaterlessbrgreat\
+              er"
+            - have-a-strong-visual-element-you-want-to-share?-this-component-gives-you-the-flexibility-to-either-add-a-youtube-video-or-an-image
+            - here-are-a-few-options-to-use-above-the-fold-customize-these-elements-to-display-your-products-or-services-in-the-best-way-possible
+            - rGKhLzmx4/O9DMudCIf9kdrg91F1ODmDQRN0cO07vMA
+            - sometimes-you-only-need-a-small-amount-of-text-an-icon-section-within-a-card-grid-is-a-great-option-to-showcase-your-content
+            - these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience
+        - heading: Already translated (jp)
+          comment: Text already translated on
+            [booking/](https://epic-garden.cloudvent.net/booking/)
+          inputs: []
+  "###-how-do-i-use-the-service?-customers-want-to-know-all-the-information-before-making-a-final-decision-make-sure-you-provide-it-to-them-###-how-do-i-pay-for-the-service?-let-your-customers-know-if-they-can-pay-by-eftpos-or-credit-cardlessbrgreaterlessbrgreater":
+    label: |2-
+       How do I use the service?
+
+      Customers want...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=How%20do,or%20cr\
+      edit%20card)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: "### **How do I use the service?**
+
+
+        Customers want to know all the information before making a final
+        decision. Make sure you provide it to them.
+
+
+        ### **How do I pay for the service?**
+
+
+        Let your customers know if they can pay by EFTPOS or credit card. \ 
+
+        \  "
+  have-a-strong-visual-element-you-want-to-share?-this-component-gives-you-the-flexibility-to-either-add-a-youtube-video-or-an-image:
+    label: Have a strong visual element you want to s...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Have%20a%20stron\
+      g,or%20an%20image)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: Have a strong visual element you want to share? This component gives
+        you the flexibility to either add a YouTube video or an image.
+  here-are-a-few-options-to-use-above-the-fold-customize-these-elements-to-display-your-products-or-services-in-the-best-way-possible:
+    label: Here are a few options to use above the fo...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Here%20are%20a,b\
+      est%20way%20possible)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: Here are a few options to use above the fold. Customize these elements
+        to display your products or services in the best way possible.
+  rGKhLzmx4/O9DMudCIf9kdrg91F1ODmDQRN0cO07vMA:
+    label: ""
+    hidden: true
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/booking/#:~:text=)"
+  sometimes-you-only-need-a-small-amount-of-text-an-icon-section-within-a-card-grid-is-a-great-option-to-showcase-your-content:
+    label: Sometimes you only need a small amount of ...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Sometimes%20you%\
+      20only,showcase%20your%20content)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: Sometimes you only need a small amount of text. An icon section within
+        a card grid is a great option to showcase your content.
+  these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience:
+    label: These versatile cards can be used to talk ...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=These%20versatil\
+      e%20cards,with%20your%20audience)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: These versatile cards can be used to talk about your services or
+        products, or anything else you are keen to share with your audience.
+"###-how-do-i-use-the-service?-customers-want-to-know-all-the-information-before-making-a-final-decision-make-sure-you-provide-it-to-them-###-how-do-i-pay-for-the-service?-let-your-customers-know-if-they-can-pay-by-eftpos-or-credit-cardlessbrgreaterlessbrgreater": ""
+have-a-strong-visual-element-you-want-to-share?-this-component-gives-you-the-flexibility-to-either-add-a-youtube-video-or-an-image: ""
+here-are-a-few-options-to-use-above-the-fold-customize-these-elements-to-display-your-products-or-services-in-the-best-way-possible: ""
+rGKhLzmx4/O9DMudCIf9kdrg91F1ODmDQRN0cO07vMA: ""
+sometimes-you-only-need-a-small-amount-of-text-an-icon-section-within-a-card-grid-is-a-great-option-to-showcase-your-content: ""
+these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience: ""

@@ -1,0 +1,16 @@
+urlTranslation: components/index.html
+_inputs:
+  $:
+    type: object
+    comment: "[See components/](https://epic-garden.cloudvent.net/components/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (es)
+          comment: Text to translate on
+            [components/](https://epic-garden.cloudvent.net/components/)
+          inputs: []
+        - heading: Already translated (es)
+          comment: Text already translated on
+            [components/](https://epic-garden.cloudvent.net/components/)
+          inputs: []

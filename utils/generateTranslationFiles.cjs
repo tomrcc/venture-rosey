@@ -18,10 +18,10 @@ const nhm = new NodeHtmlMarkdown(
 const Diff = require('diff');
 const path = require('path');
 
-const inputFilePath = './rosey/base.json';
-const inputURLFilePath = './rosey/base.urls.json';
-const translationFilesDirPath = './rosey/translations';
-const localesDirPath = './rosey/locales';
+const inputFilePath = './src/rosey/base.json';
+const inputURLFilePath = './src/rosey/base.urls.json';
+const translationFilesDirPath = './src/rosey/translations';
+const localesDirPath = './src/rosey/locales';
 
 const baseURL = process.env.BASEURL || 'http://localhost:4321/';
 const locales = process.env.LOCALES?.toLowerCase().split(',') || ['es', 'jp'];

@@ -2,13 +2,17 @@ urlTranslation: booking/index.html
 _inputs:
   $:
     type: object
-    comment: '[See booking/](https://epic-garden.cloudvent.net/booking/)'
+    comment: "[See booking/](https://epic-garden.cloudvent.net/booking/)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (jp)
-          comment: >-
-            Text to translate on
+          comment: Text to translate on
+            [booking/](https://epic-garden.cloudvent.net/booking/)
+          inputs:
+            - markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8
+        - heading: Already translated (jp)
+          comment: Text already translated on
             [booking/](https://epic-garden.cloudvent.net/booking/)
           inputs:
             - a-hero-for-a-booking-form-page
@@ -19,124 +23,110 @@ _inputs:
             - bite-sized-information
             - book-now
             - booking-form
+            - eyebrow-heading
             - heading
             - icon-card
             - large-image-or-video-block
-            - markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8
-            - >-
-              markdown:have-a-strong-visual-element-you-want-to-share?-this-component-gives-you-the-flexibility-to-either-add-a-youtube-video-or-an-image
-            - >-
-              markdown:here-are-a-few-options-to-use-above-the-fold-customize-these-elements-to-display-your-products-or-services-in-the-best-way-possible
-            - >-
-              markdown:how-do-i-use-the-service?-customers-want-to-know-all-the-information-before-making-a-final-decision-make-sure-you-provide-it-to-them-how-do-i-pay-for-the-service?-let-your-customers-know-if-they-can-pay-by-eftpos-or-credit-cardlessbrgreaterlessbrgreater
-            - >-
-              markdown:sometimes-you-only-need-a-small-amount-of-text-an-icon-section-within-a-card-grid-is-a-great-option-to-showcase-your-content
-            - >-
-              markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience
-            - tag-or-label-headline
-        - heading: Already translated (jp)
-          comment: >-
-            Text already translated on
-            [booking/](https://epic-garden.cloudvent.net/booking/)
-          inputs:
-            - eyebrow-heading
+            - markdown:have-a-strong-visual-element-you-want-to-share?-this-component-gives-you-the-flexibility-to-either-add-a-youtube-video-or-an-image
+            - markdown:here-are-a-few-options-to-use-above-the-fold-customize-these-elements-to-display-your-products-or-services-in-the-best-way-possible
+            - markdown:how-do-i-use-the-service?-customers-want-to-know-all-the-information-before-making-a-final-decision-make-sure-you-provide-it-to-them-how-do-i-pay-for-the-service?-let-your-customers-know-if-they-can-pay-by-eftpos-or-credit-cardlessbrgreaterlessbrgreater
+            - markdown:sometimes-you-only-need-a-small-amount-of-text-an-icon-section-within-a-card-grid-is-a-great-option-to-showcase-your-content
+            - markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience
             - skip-to-contents
+            - tag-or-label-headline
   a-hero-for-a-booking-form-page:
     label: A hero for a booking form page
     hidden: false
     type: textarea
     options: {}
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=A%20hero%20for,booking%20form%20page)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=A%20hero%20for,b\
+      ooking%20form%20page)"
   a-simple-text-block-for-your-faqs:
     label: A simple text block for your FAQs
     hidden: false
     type: textarea
     options: {}
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=A%20simple%20text,for%20your%20FAQs)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=A%20simple%20tex\
+      t,for%20your%20FAQs)"
   add-an-optional-button:
     label: Add an optional button
     hidden: false
     type: textarea
     options: {}
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=Add%20an%20optional%20button)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Add%20an%20optio\
+      nal%20button)"
   an-icon-card-grid:
     label: An icon card grid
     hidden: false
     type: text
     options: {}
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=An%20icon%20card%20grid)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=An%20icon%20card\
+      %20grid)"
   another-optional-button!:
     label: Another optional button!
     hidden: false
     type: textarea
     options: {}
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=Another%20optional%20button!)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Another%20option\
+      al%20button!)"
   bite-sized-information:
     label: Bite-sized information
     hidden: false
     type: textarea
     options: {}
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=Bite-sized%20information)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Bite-sized%20inf\
+      ormation)"
   book-now:
     label: Book Now
     hidden: false
     type: textarea
     options: {}
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=Book%20Now)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Book%20Now)"
   booking-form:
     label: Booking form
     hidden: false
     type: text
     options: {}
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=Booking%20form)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Booking%20form)"
   eyebrow-heading:
     label: Eyebrow Heading
     hidden: false
     type: text
     options: {}
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=Eyebrow%20Heading)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Eyebrow%20Headin\
+      g)"
   heading:
     label: Heading
     hidden: false
     type: text
     options: {}
-    comment: '[See on page](https://epic-garden.cloudvent.net/booking/#:~:text=Heading)'
+    comment: "[See on page](https://epic-garden.cloudvent.net/booking/#:~:text=Heading)"
   icon-card:
     label: icon card
     hidden: false
     type: text
     options: {}
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=icon%20card)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=icon%20card)"
   large-image-or-video-block:
     label: Large image or video block
     hidden: false
     type: textarea
     options: {}
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=Large%20image%20or%20video%20block)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Large%20image%20\
+      or%20video%20block)"
   markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8:
-    label: ''
+    label: ""
     hidden: true
     type: markdown
     options:
@@ -156,7 +146,7 @@ _inputs:
       code: true
       horizontalrule: true
       image: true
-    comment: '[See on page](https://epic-garden.cloudvent.net/booking/#:~:text=)'
+    comment: "[See on page](https://epic-garden.cloudvent.net/booking/#:~:text=)"
   markdown:have-a-strong-visual-element-you-want-to-share?-this-component-gives-you-the-flexibility-to-either-add-a-youtube-video-or-an-image:
     label: Have a strong visual element you want to s...
     hidden: false
@@ -178,16 +168,15 @@ _inputs:
       code: true
       horizontalrule: true
       image: true
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=Have%20a%20strong,or%20an%20image)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Have%20a%20stron\
+      g,or%20an%20image)"
     context:
       open: false
       title: Untranslated Text
       icon: translate
-      content: >-
-        Have a strong visual element you want to share? This component gives you
-        the flexibility to either add a YouTube video or an image.
+      content: Have a strong visual element you want to share? This component gives
+        you the flexibility to either add a YouTube video or an image.
   markdown:here-are-a-few-options-to-use-above-the-fold-customize-these-elements-to-display-your-products-or-services-in-the-best-way-possible:
     label: Here are a few options to use above the fo...
     hidden: false
@@ -209,15 +198,14 @@ _inputs:
       code: true
       horizontalrule: true
       image: true
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=Here%20are%20a,best%20way%20possible)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Here%20are%20a,b\
+      est%20way%20possible)"
     context:
       open: false
       title: Untranslated Text
       icon: translate
-      content: >-
-        Here are a few options to use above the fold. Customize these elements
+      content: Here are a few options to use above the fold. Customize these elements
         to display your products or services in the best way possible.
   markdown:how-do-i-use-the-service?-customers-want-to-know-all-the-information-before-making-a-final-decision-make-sure-you-provide-it-to-them-how-do-i-pay-for-the-service?-let-your-customers-know-if-they-can-pay-by-eftpos-or-credit-cardlessbrgreaterlessbrgreater:
     label: |2-
@@ -243,15 +231,14 @@ _inputs:
       code: true
       horizontalrule: true
       image: true
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=How%20do,or%20credit%20card)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=How%20do,or%20cr\
+      edit%20card)"
     context:
       open: false
       title: Untranslated Text
       icon: translate
-      content: >-
-        ### **How do I use the service?**
+      content: "### **How do I use the service?**
 
 
         Customers want to know all the information before making a final
@@ -261,8 +248,9 @@ _inputs:
         ### **How do I pay for the service?**
 
 
-        Let your customers know if they can pay by EFTPOS or credit card.  
-          
+        Let your customers know if they can pay by EFTPOS or credit card. \ 
+
+        \  "
   markdown:sometimes-you-only-need-a-small-amount-of-text-an-icon-section-within-a-card-grid-is-a-great-option-to-showcase-your-content:
     label: Sometimes you only need a small amount of ...
     hidden: false
@@ -284,16 +272,15 @@ _inputs:
       code: true
       horizontalrule: true
       image: true
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=Sometimes%20you%20only,showcase%20your%20content)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Sometimes%20you%\
+      20only,showcase%20your%20content)"
     context:
       open: false
       title: Untranslated Text
       icon: translate
-      content: >-
-        Sometimes you only need a small amount of text. An icon section within a
-        card grid is a great option to showcase your content.
+      content: Sometimes you only need a small amount of text. An icon section within
+        a card grid is a great option to showcase your content.
   markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience:
     label: These versatile cards can be used to talk ...
     hidden: false
@@ -315,38 +302,38 @@ _inputs:
       code: true
       horizontalrule: true
       image: true
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=These%20versatile%20cards,with%20your%20audience)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=These%20versatil\
+      e%20cards,with%20your%20audience)"
     context:
       open: false
       title: Untranslated Text
       icon: translate
-      content: >-
-        These versatile cards can be used to talk about your services or
+      content: These versatile cards can be used to talk about your services or
         products, or anything else you are keen to share with your audience.
   skip-to-contents:
     label: Skip to contents
     hidden: false
     type: textarea
     options: {}
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=Skip%20to%20contents)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Skip%20to%20cont\
+      ents)"
   tag-or-label-headline:
     label: Tag or label headline
     hidden: false
     type: textarea
     options: {}
-    comment: >-
-      [See on
-      page](https://epic-garden.cloudvent.net/booking/#:~:text=Tag%20or%20label%20headline)
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Tag%20or%20label\
+      %20headline)"
 a-hero-for-a-booking-form-page: 予約フォームページのヒーロー
 a-simple-text-block-for-your-faqs: FAQ のシンプルなテキスト ブロック
 add-an-optional-button: オプションのボタンを追加する
 an-icon-card-grid: アイコンカードグリッド
 another-optional-button!: もう一つのオプションボタン！
-bite-sized-information: 一口サイズの情報
+bite-sized-information: |
+  一口サイズの情報
 book-now: 今予約する
 booking-form: 予約フォーム
 eyebrow-heading: 眉頭
@@ -354,9 +341,9 @@ heading: 見出し
 icon-card: アイコンカード
 large-image-or-video-block: |
   大きな画像またはビデオ ブロック
-markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8: ''
+markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8: ""
 markdown:have-a-strong-visual-element-you-want-to-share?-this-component-gives-you-the-flexibility-to-either-add-a-youtube-video-or-an-image: 共有したい強力なビジュアル要素がありますか?このコンポーネントを使用すると、YouTube ビデオまたは画像を柔軟に追加できます。
-markdown:here-are-a-few-options-to-use-above-the-fold-customize-these-elements-to-display-your-products-or-services-in-the-best-way-possible: >-
+markdown:here-are-a-few-options-to-use-above-the-fold-customize-these-elements-to-display-your-products-or-services-in-the-best-way-possible:
   ここでは、スクロールせずに見える範囲で使用するオプションをいくつか紹介します。これらの要素をカスタマイズして、製品やサービスを可能な限り最適な方法で表示します。
 markdown:how-do-i-use-the-service?-customers-want-to-know-all-the-information-before-making-a-final-decision-make-sure-you-provide-it-to-them-how-do-i-pay-for-the-service?-let-your-customers-know-if-they-can-pay-by-eftpos-or-credit-cardlessbrgreaterlessbrgreater: |-
   ### サービスの利用方法を教えてください。

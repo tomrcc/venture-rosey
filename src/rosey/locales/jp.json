@@ -17,27 +17,27 @@
 	},
 	"a-hero-for-a-booking-form-page": {
 		"original": "\n      A hero for a booking form page\n    ",
-		"value": "\n      A hero for a booking form page\n    "
+		"value": "予約フォームページのヒーロー"
 	},
 	"a-simple-text-block-for-your-faqs": {
 		"original": "\n      A simple text block for your FAQs\n    ",
-		"value": "\n      A simple text block for your FAQs\n    "
+		"value": "FAQ のシンプルなテキスト ブロック"
 	},
 	"add-an-optional-button": {
 		"original": "\n        Add an optional button\n        \n            <!--bookshop-live name(generic/hero-library-icon) params(hero_library_icon_name:arrow_type icon_type:\"solid\" icon_size:'extra-small'  color:'transparent') context() -->\n\n\n\n<span class=\"c-hero-library-icon c-hero-library-icon--extra-small c-hero-library-icon--solid \" style=\"--c-hero-library-icon-color: transparent\">\n    \n        <svg aria-hidden=\"true\" class=\"c-hero-library-icon__svg\" fill=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path clip-rule=\"evenodd\" d=\"M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z\" fill-rule=\"evenodd\"></path>\n</svg>\n    \n</span>\n<!--bookshop-live end-->\n        \n    ",
-		"value": "\n        Add an optional button\n        \n            <!--bookshop-live name(generic/hero-library-icon) params(hero_library_icon_name:arrow_type icon_type:\"solid\" icon_size:'extra-small'  color:'transparent') context() -->\n\n\n\n<span class=\"c-hero-library-icon c-hero-library-icon--extra-small c-hero-library-icon--solid \" style=\"--c-hero-library-icon-color: transparent\">\n    \n        <svg aria-hidden=\"true\" class=\"c-hero-library-icon__svg\" fill=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path clip-rule=\"evenodd\" d=\"M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z\" fill-rule=\"evenodd\"></path>\n</svg>\n    \n</span>\n<!--bookshop-live end-->\n        \n    "
+		"value": "オプションのボタンを追加する"
 	},
 	"an-icon-card-grid": {
 		"original": "\n      An icon card grid\n    ",
-		"value": "\n      An icon card grid\n    "
+		"value": "アイコンカードグリッド"
 	},
 	"another-optional-button!": {
 		"original": "\n        Another optional button!\n        \n            <!--bookshop-live name(generic/hero-library-icon) params(hero_library_icon_name:arrow_type icon_type:\"solid\" icon_size:'extra-small'  color:'transparent') context() -->\n\n\n\n<span class=\"c-hero-library-icon c-hero-library-icon--extra-small c-hero-library-icon--solid \" style=\"--c-hero-library-icon-color: transparent\">\n    \n        <svg aria-hidden=\"true\" class=\"c-hero-library-icon__svg\" fill=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path clip-rule=\"evenodd\" d=\"M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z\" fill-rule=\"evenodd\"></path>\n</svg>\n    \n</span>\n<!--bookshop-live end-->\n        \n    ",
-		"value": "\n        Another optional button!\n        \n            <!--bookshop-live name(generic/hero-library-icon) params(hero_library_icon_name:arrow_type icon_type:\"solid\" icon_size:'extra-small'  color:'transparent') context() -->\n\n\n\n<span class=\"c-hero-library-icon c-hero-library-icon--extra-small c-hero-library-icon--solid \" style=\"--c-hero-library-icon-color: transparent\">\n    \n        <svg aria-hidden=\"true\" class=\"c-hero-library-icon__svg\" fill=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path clip-rule=\"evenodd\" d=\"M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z\" fill-rule=\"evenodd\"></path>\n</svg>\n    \n</span>\n<!--bookshop-live end-->\n        \n    "
+		"value": "もう一つのオプションボタン！"
 	},
 	"bite-sized-information": {
 		"original": "\n      Bite-sized information\n    ",
-		"value": "\n      Bite-sized information\n    "
+		"value": "一口サイズの情報\n"
 	},
 	"book-now": {
 		"original": "\n        Book Now\n        \n            <!--bookshop-live name(generic/hero-library-icon) params(hero_library_icon_name:arrow_type icon_type:\"solid\" icon_size:'extra-small'  color:'transparent') context() -->\n\n\n\n<span class=\"c-hero-library-icon c-hero-library-icon--extra-small c-hero-library-icon--solid \" style=\"--c-hero-library-icon-color: transparent\">\n    \n        <svg aria-hidden=\"true\" class=\"c-hero-library-icon__svg\" fill=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path clip-rule=\"evenodd\" d=\"M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z\" fill-rule=\"evenodd\"></path>\n</svg>\n    \n</span>\n<!--bookshop-live end-->\n        \n    ",
@@ -45,7 +45,7 @@
 	},
 	"booking-form": {
 		"original": "\n      Booking form\n    ",
-		"value": "\n      Booking form\n    "
+		"value": "予約フォーム"
 	},
 	"eyebrow-heading": {
 		"original": "\n      Eyebrow Heading\n    ",
@@ -53,15 +53,15 @@
 	},
 	"heading": {
 		"original": "\n      Heading\n    ",
-		"value": "\n      Heading\n    "
+		"value": "見出し"
 	},
 	"icon-card": {
 		"original": "\n      icon card\n    ",
-		"value": "\n      icon card\n    "
+		"value": "アイコンカード"
 	},
 	"large-image-or-video-block": {
 		"original": "\n      Large image or video block\n    ",
-		"value": "\n      Large image or video block\n    "
+		"value": "大きな画像またはビデオ ブロック\n"
 	},
 	"markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8": {
 		"original": "    \n        \n    ",
@@ -69,23 +69,23 @@
 	},
 	"markdown:have-a-strong-visual-element-you-want-to-share?-this-component-gives-you-the-flexibility-to-either-add-a-youtube-video-or-an-image": {
 		"original": "    \n        <p>Have a strong visual element you want to share? This component gives you the flexibility to either add a YouTube video or an image.</p>\n\n    ",
-		"value": "    \n        <p>Have a strong visual element you want to share? This component gives you the flexibility to either add a YouTube video or an image.</p>\n\n    "
+		"value": "<p>共有したい強力なビジュアル要素がありますか?このコンポーネントを使用すると、YouTube ビデオまたは画像を柔軟に追加できます。</p>\n"
 	},
 	"markdown:here-are-a-few-options-to-use-above-the-fold-customize-these-elements-to-display-your-products-or-services-in-the-best-way-possible": {
 		"original": "    \n        <p>Here are a few options to use above the fold. Customize these elements to display your products or services in the best way possible.</p>\n\n    ",
-		"value": "    \n        <p>Here are a few options to use above the fold. Customize these elements to display your products or services in the best way possible.</p>\n\n    "
+		"value": "<p>ここでは、スクロールせずに見える範囲で使用するオプションをいくつか紹介します。これらの要素をカスタマイズして、製品やサービスを可能な限り最適な方法で表示します。</p>\n"
 	},
 	"markdown:how-do-i-use-the-service?-customers-want-to-know-all-the-information-before-making-a-final-decision-make-sure-you-provide-it-to-them-how-do-i-pay-for-the-service?-let-your-customers-know-if-they-can-pay-by-eftpos-or-credit-cardlessbrgreaterlessbrgreater": {
 		"original": "    \n        <h3><strong>How do I use the service?</strong></h3>\n<p>Customers want to know all the information before making a final decision. Make sure you provide it to them.</p>\n<h3><strong>How do I pay for the service?</strong></h3>\n<p>Let your customers know if they can pay by EFTPOS or credit card.<br><br></p>\n\n    ",
-		"value": "    \n        <h3><strong>How do I use the service?</strong></h3>\n<p>Customers want to know all the information before making a final decision. Make sure you provide it to them.</p>\n<h3><strong>How do I pay for the service?</strong></h3>\n<p>Let your customers know if they can pay by EFTPOS or credit card.<br><br></p>\n\n    "
+		"value": "<h3>サービスの利用方法を教えてください。</h3>\n<p>顧客は最終的な決定を下す前に、すべての情報を知りたいと考えています。必ず提供してください。</p>\n<h3>サービス料金の支払い方法を教えてください。</h3>\n<p>EFTPOS またはクレジット カードで支払いできるかどうかを顧客に知らせます。</p>\n"
 	},
 	"markdown:sometimes-you-only-need-a-small-amount-of-text-an-icon-section-within-a-card-grid-is-a-great-option-to-showcase-your-content": {
 		"original": "    \n        <p>Sometimes you only need a small amount of text. An icon section within a card grid is a great option to showcase your content.</p>\n\n    ",
-		"value": "    \n        <p>Sometimes you only need a small amount of text. An icon section within a card grid is a great option to showcase your content.</p>\n\n    "
+		"value": "<p>少量のテキストだけが必要な場合もあります。カード グリッド内のアイコン セクションは、コンテンツを紹介するのに最適なオプションです。</p>\n"
 	},
 	"markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience": {
 		"original": "    \n        <p>These versatile cards can be used to talk about your services or products, or anything else you are keen to share with your audience.</p>\n\n    ",
-		"value": "    \n        <p>These versatile cards can be used to talk about your services or products, or anything else you are keen to share with your audience.</p>\n\n    "
+		"value": "<p>これらの多用途カードは、サービスや製品、または聴衆と共有したいその他のことについて話すために使用できます。</p>\n"
 	},
 	"tag-or-label-headline": {
 		"original": "\n      Tag or label headline\n    ",
@@ -97,15 +97,15 @@
 	},
 	"an-image-card-grid": {
 		"original": "\n      An image card grid\n    ",
-		"value": "\n      An image card grid\n    "
+		"value": "画像カードグリッド"
 	},
 	"contact-us": {
 		"original": "\n      Contact us\n    ",
-		"value": "\n      Contact us\n    "
+		"value": "お問い合わせ"
 	},
 	"markdown:add-some-description-text-to-complement-the-block": {
 		"original": "    \n        <p>Add some description text to complement the block.</p>\n\n    ",
-		"value": "    \n        <p>Add some description text to complement the block.</p>\n\n    "
+		"value": "<p>ブロックを補完する説明テキストを追加します。</p>\n"
 	},
 	"markdown:address-1-fake-st-faketown": {
 		"original": "    \n        <p>Address: 1 Fake St, Faketown</p>\n\n    ",

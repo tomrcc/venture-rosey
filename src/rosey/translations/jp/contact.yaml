@@ -10,7 +10,6 @@ _inputs:
           comment: Text to translate on
             [contact/](https://epic-garden.cloudvent.net/contact/)
           inputs:
-            - a-contact-block
             - an-image-card-grid
             - contact-us
             - markdown:add-some-description-text-to-complement-the-block
@@ -26,7 +25,8 @@ _inputs:
         - heading: Already translated (jp)
           comment: Text already translated on
             [contact/](https://epic-garden.cloudvent.net/contact/)
-          inputs: []
+          inputs:
+            - a-contact-block
   a-contact-block:
     label: A contact block
     hidden: false

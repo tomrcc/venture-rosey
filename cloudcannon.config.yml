@@ -1,7 +1,7 @@
-source: ''
+source: '.'
 paths:
   data: src/_data
-  collections: ''
+  collections: 'src'
   layouts: src/_includes
   static: ''
   uploads: src/assets/uploads

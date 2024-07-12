@@ -12,7 +12,6 @@ _inputs:
           inputs:
             - markdown:invite-your-customers-to-get-in-touch-with-you
             - markdown:these-image-cards-combine-a-short-written-message-and-a-strong-visual-image
-            - markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience
             - primary-heading
             - submit
         - heading: Already translated (jp)
@@ -29,6 +28,7 @@ _inputs:
             - markdown:email-address-mybusiness@businesscom
             - markdown:opening-hours-9-5pm-monday-to-friday
             - markdown:phone-number-312-325-326
+            - markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience
             - markdown:this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-by-using-openstreetmaps-but-also-any-other-contact-details-you-wish-to-share-with-your-customers
             - skip-to-contents
   a-contact-block:

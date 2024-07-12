@@ -1,10 +1,9 @@
-@import "reset.scss";
-@import "variables.scss";
-@import "color_groups.scss";
-@import "nav.scss";
-@import "footer.scss";
-@import "component-browser.scss";
-@import "leaflet.scss";
+@import 'reset.scss';
+@import 'variables.scss';
+@import 'color_groups.scss';
+@import 'nav.scss';
+@import 'footer.scss';
+@import 'leaflet.scss';
 
 body {
   display: grid;
@@ -12,9 +11,8 @@ body {
   min-height: 100svh;
   grid-template-rows: auto 1fr auto;
   font-family: var(--content-font), Lato, sans-serif;
-  color: var(--main-text-color, #F9F9FB);
-  background-color: var(--main-background-color, #3B3B3D);
-
+  color: var(--main-text-color, #f9f9fb);
+  background-color: var(--main-background-color, #3b3b3d);
 
   h1,
   h2,
@@ -41,13 +39,13 @@ main {
     padding: 0;
   }
 
-  .component__heading{
+  .component__heading {
     display: flex;
     flex-direction: column;
     gap: 24px;
     align-items: inherit;
 
-    .c-text-block > p{
+    .c-text-block > p {
       font-size: var(--paragraph-large);
     }
   }

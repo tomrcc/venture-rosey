@@ -10,23 +10,27 @@ _inputs:
           comment: Text to translate on
             [contact/](https://epic-garden.cloudvent.net/contact/)
           inputs:
-            - an-image-card-grid
-            - contact-us
-            - markdown:add-some-description-text-to-complement-the-block
-            - markdown:address-1-fake-st-faketown
-            - markdown:email-address-mybusiness@businesscom
             - markdown:invite-your-customers-to-get-in-touch-with-you
-            - markdown:opening-hours-9-5pm-monday-to-friday
-            - markdown:phone-number-312-325-326
             - markdown:these-image-cards-combine-a-short-written-message-and-a-strong-visual-image
             - markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience
-            - markdown:this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-by-using-openstreetmaps-but-also-any-other-contact-details-you-wish-to-share-with-your-customers
             - primary-heading
+            - submit
         - heading: Already translated (jp)
           comment: Text already translated on
             [contact/](https://epic-garden.cloudvent.net/contact/)
           inputs:
             - a-contact-block
+            - an-image-card-grid
+            - bite-sized-information
+            - contact-us
+            - eyebrow-heading
+            - markdown:add-some-description-text-to-complement-the-block
+            - markdown:address-1-fake-st-faketown
+            - markdown:email-address-mybusiness@businesscom
+            - markdown:opening-hours-9-5pm-monday-to-friday
+            - markdown:phone-number-312-325-326
+            - markdown:this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-by-using-openstreetmaps-but-also-any-other-contact-details-you-wish-to-share-with-your-customers
+            - skip-to-contents
   a-contact-block:
     label: A contact block
     hidden: false
@@ -43,6 +47,14 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/contact/#:~:text=An%20image%20car\
       d%20grid)"
+  bite-sized-information:
+    label: Bite-sized information
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Bite-sized%20inf\
+      ormation)"
   contact-us:
     label: Contact us
     hidden: false
@@ -50,6 +62,14 @@ _inputs:
     options: {}
     comment: "[See on
       page](https://epic-garden.cloudvent.net/contact/#:~:text=Contact%20us)"
+  eyebrow-heading:
+    label: Eyebrow Heading
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Eyebrow%20Headin\
+      g)"
   markdown:add-some-description-text-to-complement-the-block:
     label: Add some description text to complement th...
     hidden: false
@@ -303,16 +323,35 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/contact/#:~:text=Primary%20Headin\
       g)"
+  skip-to-contents:
+    label: Skip to contents
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Skip%20to%20cont\
+      ents)"
+  submit:
+    label: Submit
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/contact/#:~:text=Submit)"
 a-contact-block: 接点ブロック
-an-image-card-grid: ""
-contact-us: ""
-markdown:add-some-description-text-to-complement-the-block: ""
-markdown:address-1-fake-st-faketown: ""
-markdown:email-address-mybusiness@businesscom: ""
+an-image-card-grid: 画像カードグリッド
+bite-sized-information: |
+  一口サイズの情報
+contact-us: お問い合わせ
+eyebrow-heading: 眉頭
+markdown:add-some-description-text-to-complement-the-block: ブロックを補完する説明テキストを追加します。
+markdown:address-1-fake-st-faketown: 住所：1 Fake St, Faketown
+markdown:email-address-mybusiness@businesscom: 電子メールアドレス：
 markdown:invite-your-customers-to-get-in-touch-with-you: ""
-markdown:opening-hours-9-5pm-monday-to-friday: ""
-markdown:phone-number-312-325-326: ""
+markdown:opening-hours-9-5pm-monday-to-friday: "営業時間: 月曜日から金曜日の 9 時から 17 時まで"
+markdown:phone-number-312-325-326: 電話番号： 312 325 326
 markdown:these-image-cards-combine-a-short-written-message-and-a-strong-visual-image: ""
-markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience: ""
-markdown:this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-by-using-openstreetmaps-but-also-any-other-contact-details-you-wish-to-share-with-your-customers: ""
+markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience: これらの多用途カードは、サービスや製品、または聴衆と共有したいその他のことについて話すために使用できます。
+markdown:this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-by-using-openstreetmaps-but-also-any-other-contact-details-you-wish-to-share-with-your-customers: これは、OpenStreetMaps を使用して現在地だけでなく、顧客と共有したいその他の連絡先の詳細も表示する、シンプルかつ強力なブロックです。
 primary-heading: ""
+skip-to-contents: コンテンツへスキップ
+submit: ""

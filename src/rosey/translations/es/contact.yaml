@@ -9,9 +9,16 @@ _inputs:
         - heading: Still to translate (es)
           comment: Text to translate on
             [contact/](https://epic-garden.cloudvent.net/contact/)
+          inputs: []
+        - heading: Already translated (es)
+          comment: Text already translated on
+            [contact/](https://epic-garden.cloudvent.net/contact/)
           inputs:
+            - a-contact-block
             - an-image-card-grid
+            - bite-sized-information
             - contact-us
+            - eyebrow-heading
             - markdown:add-some-description-text-to-complement-the-block
             - markdown:address-1-fake-st-faketown
             - markdown:email-address-mybusiness@businesscom
@@ -22,11 +29,8 @@ _inputs:
             - markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience
             - markdown:this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-by-using-openstreetmaps-but-also-any-other-contact-details-you-wish-to-share-with-your-customers
             - primary-heading
-        - heading: Already translated (es)
-          comment: Text already translated on
-            [contact/](https://epic-garden.cloudvent.net/contact/)
-          inputs:
-            - a-contact-block
+            - skip-to-contents
+            - submit
   a-contact-block:
     label: A contact block
     hidden: false
@@ -43,6 +47,14 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/contact/#:~:text=An%20image%20car\
       d%20grid)"
+  bite-sized-information:
+    label: Bite-sized information
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Bite-sized%20inf\
+      ormation)"
   contact-us:
     label: Contact us
     hidden: false
@@ -50,6 +62,14 @@ _inputs:
     options: {}
     comment: "[See on
       page](https://epic-garden.cloudvent.net/contact/#:~:text=Contact%20us)"
+  eyebrow-heading:
+    label: Eyebrow Heading
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Eyebrow%20Headin\
+      g)"
   markdown:add-some-description-text-to-complement-the-block:
     label: Add some description text to complement th...
     hidden: false
@@ -303,19 +323,41 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/contact/#:~:text=Primary%20Headin\
       g)"
+  skip-to-contents:
+    label: Skip to contents
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Skip%20to%20cont\
+      ents)"
+  submit:
+    label: Submit
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/contact/#:~:text=Submit)"
 a-contact-block: Un bloque de contactos
-an-image-card-grid: ""
-contact-us: ""
-markdown:add-some-description-text-to-complement-the-block: ""
+an-image-card-grid: Una cuadrícula de tarjeta de imagen
+bite-sized-information: Información breve
+contact-us: Contacta con nosotros
+eyebrow-heading: Encabezado de cejas
+markdown:add-some-description-text-to-complement-the-block: Agregue algún texto de descripción para complementar el bloque.
 markdown:address-1-fake-st-faketown: DIRECCIÓN
 markdown:email-address-mybusiness@businesscom: Dirección de correo electrónico
-markdown:invite-your-customers-to-get-in-touch-with-you: ""
+markdown:invite-your-customers-to-get-in-touch-with-you: Invita a tus clientes a ponerse en contacto contigo.
 markdown:opening-hours-9-5pm-monday-to-friday: "Horario de apertura: 9-5pm, de lunes a viernes"
 markdown:phone-number-312-325-326: "Número de teléfono: 312 325 326"
-markdown:these-image-cards-combine-a-short-written-message-and-a-strong-visual-image: ""
-markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience: ""
+markdown:these-image-cards-combine-a-short-written-message-and-a-strong-visual-image:
+  Estas tarjetas con imágenes combinan un mensaje escrito breve y una imagen
+  visual potente.
+markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience:
+  Estas tarjetas versátiles se pueden utilizar para hablar sobre sus servicios o
+  productos, o cualquier otra cosa que desee compartir con su audiencia.
 markdown:this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-by-using-openstreetmaps-but-also-any-other-contact-details-you-wish-to-share-with-your-customers:
   Este es un bloque simple pero poderoso para mostrar no solo su ubicación
   usando OpenStreetMaps, sino también cualquier otro detalle de contacto que
   desee compartir con sus clientes.
-primary-heading: ""
+primary-heading: Título Primario
+skip-to-contents: Saltar al contenido
+submit: Entregar

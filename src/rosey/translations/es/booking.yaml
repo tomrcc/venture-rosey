@@ -10,22 +10,30 @@ _inputs:
           comment: Text to translate on
             [booking/](https://epic-garden.cloudvent.net/booking/)
           inputs:
+            - markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8
+        - heading: Already translated (es)
+          comment: Text already translated on
+            [booking/](https://epic-garden.cloudvent.net/booking/)
+          inputs:
             - a-hero-for-a-booking-form-page
             - a-simple-text-block-for-your-faqs
+            - add-an-optional-button
             - an-icon-card-grid
+            - another-optional-button!
+            - bite-sized-information
+            - book-now
             - booking-form
+            - eyebrow-heading
             - heading
+            - icon-card
             - large-image-or-video-block
-            - markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8
             - markdown:have-a-strong-visual-element-you-want-to-share?-this-component-gives-you-the-flexibility-to-either-add-a-youtube-video-or-an-image
             - markdown:here-are-a-few-options-to-use-above-the-fold-customize-these-elements-to-display-your-products-or-services-in-the-best-way-possible
             - markdown:how-do-i-use-the-service?-customers-want-to-know-all-the-information-before-making-a-final-decision-make-sure-you-provide-it-to-them-how-do-i-pay-for-the-service?-let-your-customers-know-if-they-can-pay-by-eftpos-or-credit-cardlessbrgreaterlessbrgreater
             - markdown:sometimes-you-only-need-a-small-amount-of-text-an-icon-section-within-a-card-grid-is-a-great-option-to-showcase-your-content
             - markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience
-        - heading: Already translated (es)
-          comment: Text already translated on
-            [booking/](https://epic-garden.cloudvent.net/booking/)
-          inputs: []
+            - skip-to-contents
+            - tag-or-label-headline
   a-hero-for-a-booking-form-page:
     label: A hero for a booking form page
     hidden: false
@@ -42,6 +50,14 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/booking/#:~:text=A%20simple%20tex\
       t,for%20your%20FAQs)"
+  add-an-optional-button:
+    label: Add an optional button
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Add%20an%20optio\
+      nal%20button)"
   an-icon-card-grid:
     label: An icon card grid
     hidden: false
@@ -50,6 +66,29 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/booking/#:~:text=An%20icon%20card\
       %20grid)"
+  another-optional-button!:
+    label: Another optional button!
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Another%20option\
+      al%20button!)"
+  bite-sized-information:
+    label: Bite-sized information
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Bite-sized%20inf\
+      ormation)"
+  book-now:
+    label: Book Now
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Book%20Now)"
   booking-form:
     label: Booking form
     hidden: false
@@ -57,12 +96,27 @@ _inputs:
     options: {}
     comment: "[See on
       page](https://epic-garden.cloudvent.net/booking/#:~:text=Booking%20form)"
+  eyebrow-heading:
+    label: Eyebrow Heading
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Eyebrow%20Headin\
+      g)"
   heading:
     label: Heading
     hidden: false
     type: text
     options: {}
     comment: "[See on page](https://epic-garden.cloudvent.net/booking/#:~:text=Heading)"
+  icon-card:
+    label: icon card
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=icon%20card)"
   large-image-or-video-block:
     label: Large image or video block
     hidden: false
@@ -257,15 +311,60 @@ _inputs:
       icon: translate
       content: These versatile cards can be used to talk about your services or
         products, or anything else you are keen to share with your audience.
-a-hero-for-a-booking-form-page: ""
-a-simple-text-block-for-your-faqs: ""
-an-icon-card-grid: ""
-booking-form: ""
-heading: ""
-large-image-or-video-block: ""
+  skip-to-contents:
+    label: Skip to contents
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Skip%20to%20cont\
+      ents)"
+  tag-or-label-headline:
+    label: Tag or label headline
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Tag%20or%20label\
+      %20headline)"
+a-hero-for-a-booking-form-page: Un héroe para una página de formulario de reserva
+a-simple-text-block-for-your-faqs: Un bloque de texto simple para sus preguntas frecuentes
+add-an-optional-button: Agregar un botón opcional
+an-icon-card-grid: Una cuadrícula de tarjetas de iconos
+another-optional-button!: ¡Otro botón opcional!
+bite-sized-information: Información breve
+book-now: Reservar ahora
+booking-form: Formulario de reserva
+eyebrow-heading: Encabezado de cejas
+heading: Título
+icon-card: tarjeta de icono
+large-image-or-video-block: Bloque grande de imagen o video
 markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8: ""
-markdown:have-a-strong-visual-element-you-want-to-share?-this-component-gives-you-the-flexibility-to-either-add-a-youtube-video-or-an-image: ""
-markdown:here-are-a-few-options-to-use-above-the-fold-customize-these-elements-to-display-your-products-or-services-in-the-best-way-possible: ""
-markdown:how-do-i-use-the-service?-customers-want-to-know-all-the-information-before-making-a-final-decision-make-sure-you-provide-it-to-them-how-do-i-pay-for-the-service?-let-your-customers-know-if-they-can-pay-by-eftpos-or-credit-cardlessbrgreaterlessbrgreater: ""
-markdown:sometimes-you-only-need-a-small-amount-of-text-an-icon-section-within-a-card-grid-is-a-great-option-to-showcase-your-content: ""
-markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience: ""
+markdown:have-a-strong-visual-element-you-want-to-share?-this-component-gives-you-the-flexibility-to-either-add-a-youtube-video-or-an-image:
+  ¿Tienes un elemento visual fuerte que quieras compartir? Este componente le
+  brinda la flexibilidad de agregar un video de YouTube o una imagen.
+markdown:here-are-a-few-options-to-use-above-the-fold-customize-these-elements-to-display-your-products-or-services-in-the-best-way-possible:
+  Aquí hay algunas opciones para usar en la mitad superior de la página.
+  Personalice estos elementos para mostrar sus productos o servicios de la mejor
+  manera posible.
+markdown:how-do-i-use-the-service?-customers-want-to-know-all-the-information-before-making-a-final-decision-make-sure-you-provide-it-to-them-how-do-i-pay-for-the-service?-let-your-customers-know-if-they-can-pay-by-eftpos-or-credit-cardlessbrgreaterlessbrgreater: >-
+  ### ¿Cómo uso el servicio?
+
+
+  Los clientes quieren conocer toda la información antes de tomar una decisión
+  final. Asegúrate de proporcionárselo.
+
+
+  ### ¿Cómo pago el servicio?
+
+
+  Informe a sus clientes si pueden pagar con EFTPOS o tarjeta de crédito.
+markdown:sometimes-you-only-need-a-small-amount-of-text-an-icon-section-within-a-card-grid-is-a-great-option-to-showcase-your-content:
+  A veces sólo necesitas una pequeña cantidad de texto. Una sección de íconos
+  dentro de una cuadrícula de tarjetas es una excelente opción para mostrar su
+  contenido.
+markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience:
+  Estas tarjetas versátiles se pueden utilizar para hablar sobre sus servicios o
+  productos, o cualquier otra cosa que desee compartir con su audiencia.
+skip-to-contents: Saltar al contenido
+tag-or-label-headline: Título de etiqueta o etiqueta

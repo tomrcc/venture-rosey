@@ -9,7 +9,11 @@ _inputs:
         - heading: Still to translate (jp)
           comment: Text to translate on [404/](https://epic-garden.cloudvent.net/404/)
           inputs:
+            - book-now
+            - contact-us
+            - markdown:(c)enter-your-copyright-and-terms-and-conditions
             - markdown:sorry-but-the-page-you-were-trying-to-view-does-not-exist
+            - our-services
             - page-not-found
             - skip-to-contents
             - uMtr8wX//bU83YYJrdde2yb9/5bvdHT7YfcGfJkWcCc
@@ -17,6 +21,49 @@ _inputs:
           comment: Text already translated on
             [404/](https://epic-garden.cloudvent.net/404/)
           inputs: []
+  book-now:
+    label: Book Now
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/404/#:~:text=Book%20Now)"
+  contact-us:
+    label: Contact Us
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/404/#:~:text=Contact%20Us)"
+  markdown:(c)enter-your-copyright-and-terms-and-conditions:
+    label: ©Enter your copyright and terms and condit...
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+      bulletedlist: true
+      numberedlist: true
+      blockquote: true
+      superscript: true
+      subscript: true
+      code: true
+      horizontalrule: true
+      image: true
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/404/#:~:text=%C2%A9Enter%20your%2\
+      0copyright,terms%20and%20conditions)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: ©Enter your copyright and [terms and conditions](/terms-and-conditions/
+        "Terms and Conditions").
   markdown:sorry-but-the-page-you-were-trying-to-view-does-not-exist:
     label: Sorry, but the page you were trying to vie...
     hidden: false
@@ -46,6 +93,13 @@ _inputs:
       title: Untranslated Text
       icon: translate
       content: Sorry, but the page you were trying to view does not exist.
+  our-services:
+    label: Our Services
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/404/#:~:text=Our%20Services)"
   page-not-found:
     label: Page Not Found
     hidden: false
@@ -67,7 +121,11 @@ _inputs:
     type: text
     options: {}
     comment: "[See on page](https://epic-garden.cloudvent.net/404/#:~:text=404)"
+book-now: ""
+contact-us: ""
+markdown:(c)enter-your-copyright-and-terms-and-conditions: ""
 markdown:sorry-but-the-page-you-were-trying-to-view-does-not-exist: ""
+our-services: ""
 page-not-found: ""
 skip-to-contents: ""
 uMtr8wX//bU83YYJrdde2yb9/5bvdHT7YfcGfJkWcCc: ""

@@ -1,6 +1,15 @@
 {
   "version": 2,
   "keys": {
+    "JUOZuK3mv2fsD+0HEknH4QXO64Shr8+Csd6ZO2ejAUE": {
+      "original": "",
+      "value": null,
+      "pages": {
+        "booking/index.html": 5,
+        "contact/index.html": 3
+      },
+      "total": 8
+    },
     "a-component-to-showcase-your-brand": {
       "original": "\n      A component to showcase your brand\n    ",
       "value": null,
@@ -108,13 +117,16 @@
       "total": 2
     },
     "book-now": {
-      "original": "\n        Book Now\n        \n            <!--bookshop-live name(generic/hero-library-icon) params(hero_library_icon_name:arrow_type icon_type:\"solid\" icon_size:'extra-small'  color:'transparent') context() -->\n\n\n\n<span class=\"c-hero-library-icon c-hero-library-icon--extra-small c-hero-library-icon--solid \" style=\"--c-hero-library-icon-color: transparent\">\n    \n        <svg aria-hidden=\"true\" class=\"c-hero-library-icon__svg\" fill=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path clip-rule=\"evenodd\" d=\"M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z\" fill-rule=\"evenodd\"></path>\n</svg>\n    \n</span>\n<!--bookshop-live end-->\n        \n    ",
+      "original": "Book Now",
       "value": null,
       "pages": {
-        "booking/index.html": 2,
-        "index.html": 4
+        "404/index.html": 3,
+        "booking/index.html": 5,
+        "contact/index.html": 3,
+        "index.html": 7,
+        "terms-and-conditions/index.html": 3
       },
-      "total": 6
+      "total": 21
     },
     "booking-form": {
       "original": "\n      Booking form\n    ",
@@ -124,13 +136,74 @@
       },
       "total": 1
     },
-    "contact-us": {
-      "original": "\n      Contact us\n    ",
+    "choose-a-date": {
+      "original": "Choose a date *",
       "value": null,
       "pages": {
-        "contact/index.html": 4
+        "booking/index.html": 1
       },
-      "total": 4
+      "total": 1
+    },
+    "contact-us": {
+      "original": "Contact Us",
+      "value": null,
+      "pages": {
+        "404/index.html": 3,
+        "booking/index.html": 3,
+        "contact/index.html": 7,
+        "index.html": 3,
+        "terms-and-conditions/index.html": 3
+      },
+      "total": 19
+    },
+    "dollar34": {
+      "original": "$34",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "dollar40": {
+      "original": "$40",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "dollar7599": {
+      "original": "$75.99",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "dollar79-annually": {
+      "original": "$79 annually",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "dollar95-per-month": {
+      "original": "$95 per month",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "email-address": {
+      "original": "Email address *",
+      "value": null,
+      "pages": {
+        "booking/index.html": 1,
+        "contact/index.html": 1
+      },
+      "total": 2
     },
     "empower-your-business-with-this-brilliant-template": {
       "original": "\n      Empower your business with this brilliant template\n    ",
@@ -150,6 +223,15 @@
         "terms-and-conditions/index.html": 1
       },
       "total": 10
+    },
+    "full-name": {
+      "original": "Full name *",
+      "value": null,
+      "pages": {
+        "booking/index.html": 1,
+        "contact/index.html": 1
+      },
+      "total": 2
     },
     "heading": {
       "original": "\n      Heading\n    ",
@@ -206,6 +288,18 @@
         "index.html": 1
       },
       "total": 1
+    },
+    "markdown:(c)enter-your-copyright-and-terms-and-conditions": {
+      "original": "<p>©Enter your copyright and <a href=\"/terms-and-conditions/\" title=\"Terms and Conditions\">terms and conditions</a>.</p>\n",
+      "value": null,
+      "pages": {
+        "404/index.html": 1,
+        "booking/index.html": 1,
+        "contact/index.html": 1,
+        "index.html": 1,
+        "terms-and-conditions/index.html": 1
+      },
+      "total": 5
     },
     "markdown:100percent-happy-customer-reviews": {
       "original": "    \n        <p>100% Happy customer reviews</p>\n\n    ",
@@ -391,19 +485,48 @@
       },
       "total": 1
     },
-    "our-services": {
-      "original": "\n        Our services\n        \n            <!--bookshop-live name(generic/hero-library-icon) params(hero_library_icon_name:arrow_type icon_type:\"solid\" icon_size:'extra-small'  color:'transparent') context() -->\n\n\n\n<span class=\"c-hero-library-icon c-hero-library-icon--extra-small c-hero-library-icon--solid \" style=\"--c-hero-library-icon-color: transparent\">\n    \n        <svg aria-hidden=\"true\" class=\"c-hero-library-icon__svg\" fill=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path clip-rule=\"evenodd\" d=\"M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z\" fill-rule=\"evenodd\"></path>\n</svg>\n    \n</span>\n<!--bookshop-live end-->\n        \n    ",
+    "message": {
+      "original": "Message",
       "value": null,
       "pages": {
-        "index.html": 1
+        "booking/index.html": 1,
+        "contact/index.html": 1
       },
-      "total": 1
+      "total": 2
+    },
+    "our-services": {
+      "original": "Our Services",
+      "value": null,
+      "pages": {
+        "404/index.html": 3,
+        "booking/index.html": 3,
+        "contact/index.html": 3,
+        "index.html": 4,
+        "terms-and-conditions/index.html": 3
+      },
+      "total": 16
     },
     "page-not-found": {
       "original": "\n      Page Not Found\n    ",
       "value": null,
       "pages": {
         "404/index.html": 1
+      },
+      "total": 1
+    },
+    "phone-number": {
+      "original": "Phone number",
+      "value": null,
+      "pages": {
+        "booking/index.html": 1
+      },
+      "total": 1
+    },
+    "price-on-application": {
+      "original": "Price on application",
+      "value": null,
+      "pages": {
+        "index.html": 1
       },
       "total": 1
     },
@@ -414,6 +537,54 @@
         "contact/index.html": 3
       },
       "total": 3
+    },
+    "product-1": {
+      "original": "Product 1 ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "product-2": {
+      "original": "Product 2",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "product-3": {
+      "original": "Product 3",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "service-1": {
+      "original": "Service 1",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "service-2": {
+      "original": "Service 2",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "service-3": {
+      "original": "Service 3",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
     },
     "skip-to-contents": {
       "original": "\n        Skip to contents\n        \n            <!--bookshop-live name(generic/hero-library-icon) params(hero_library_icon_name:arrow_type icon_type:\"solid\" icon_size:'extra-small'  color:'transparent') context() -->\n\n\n\n<span class=\"c-hero-library-icon c-hero-library-icon--extra-small c-hero-library-icon--solid \" style=\"--c-hero-library-icon-color: transparent\">\n    \n        <svg aria-hidden=\"true\" class=\"c-hero-library-icon__svg\" fill=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path clip-rule=\"evenodd\" d=\"M12 2.25a.75.75 0 01.75.75v16.19l6.22-6.22a.75.75 0 111.06 1.06l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 111.06-1.06l6.22 6.22V3a.75.75 0 01.75-.75z\" fill-rule=\"evenodd\"></path>\n</svg>\n    \n</span>\n<!--bookshop-live end-->\n        \n    ",
@@ -426,6 +597,14 @@
         "terms-and-conditions/index.html": 1
       },
       "total": 5
+    },
+    "subheadings-available": {
+      "original": "Subheadings available",
+      "value": null,
+      "pages": {
+        "index.html": 2
+      },
+      "total": 2
     },
     "submit": {
       "original": "\n        Submit\n        \n            <!--bookshop-live name(generic/hero-library-icon) params(hero_library_icon_name:arrow_type icon_type:\"solid\" icon_size:'extra-small'  color:'transparent') context() -->\n\n\n\n<span class=\"c-hero-library-icon c-hero-library-icon--extra-small c-hero-library-icon--solid \" style=\"--c-hero-library-icon-color: transparent\">\n    \n        <svg aria-hidden=\"true\" class=\"c-hero-library-icon__svg\" fill=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path clip-rule=\"evenodd\" d=\"M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z\" fill-rule=\"evenodd\"></path>\n</svg>\n    \n</span>\n<!--bookshop-live end-->\n        \n    ",

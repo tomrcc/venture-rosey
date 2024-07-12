@@ -10,7 +10,16 @@ _inputs:
           comment: Text to translate on
             [booking/](https://epic-garden.cloudvent.net/booking/)
           inputs:
+            - JUOZuK3mv2fsD+0HEknH4QXO64Shr8+Csd6ZO2ejAUE
+            - choose-a-date
+            - contact-us
+            - email-address
+            - full-name
+            - markdown:(c)enter-your-copyright-and-terms-and-conditions
             - markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8
+            - message
+            - our-services
+            - phone-number
         - heading: Already translated (es)
           comment: Text already translated on
             [booking/](https://epic-garden.cloudvent.net/booking/)
@@ -34,6 +43,12 @@ _inputs:
             - markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience
             - skip-to-contents
             - tag-or-label-headline
+  JUOZuK3mv2fsD+0HEknH4QXO64Shr8+Csd6ZO2ejAUE:
+    label: ""
+    hidden: true
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/booking/#:~:text=)"
   a-hero-for-a-booking-form-page:
     label: A hero for a booking form page
     hidden: false
@@ -85,7 +100,7 @@ _inputs:
   book-now:
     label: Book Now
     hidden: false
-    type: textarea
+    type: text
     options: {}
     comment: "[See on
       page](https://epic-garden.cloudvent.net/booking/#:~:text=Book%20Now)"
@@ -96,6 +111,29 @@ _inputs:
     options: {}
     comment: "[See on
       page](https://epic-garden.cloudvent.net/booking/#:~:text=Booking%20form)"
+  choose-a-date:
+    label: "Choose a date "
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Choose%20a%20dat\
+      e%20)"
+  contact-us:
+    label: Contact Us
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Contact%20Us)"
+  email-address:
+    label: "Email address "
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Email%20address%\
+      20)"
   eyebrow-heading:
     label: Eyebrow Heading
     hidden: false
@@ -104,6 +142,13 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/booking/#:~:text=Eyebrow%20Headin\
       g)"
+  full-name:
+    label: "Full name "
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Full%20name%20)"
   heading:
     label: Heading
     hidden: false
@@ -125,6 +170,36 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/booking/#:~:text=Large%20image%20\
       or%20video%20block)"
+  markdown:(c)enter-your-copyright-and-terms-and-conditions:
+    label: ©Enter your copyright and terms and condit...
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+      bulletedlist: true
+      numberedlist: true
+      blockquote: true
+      superscript: true
+      subscript: true
+      code: true
+      horizontalrule: true
+      image: true
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=%C2%A9Enter%20yo\
+      ur%20copyright,terms%20and%20conditions)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: ©Enter your copyright and [terms and conditions](/terms-and-conditions/
+        "Terms and Conditions").
   markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8:
     label: ""
     hidden: true
@@ -311,6 +386,26 @@ _inputs:
       icon: translate
       content: These versatile cards can be used to talk about your services or
         products, or anything else you are keen to share with your audience.
+  message:
+    label: Message
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](https://epic-garden.cloudvent.net/booking/#:~:text=Message)"
+  our-services:
+    label: Our Services
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Our%20Services)"
+  phone-number:
+    label: Phone number
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Phone%20number)"
   skip-to-contents:
     label: Skip to contents
     hidden: false
@@ -327,6 +422,7 @@ _inputs:
     comment: "[See on
       page](https://epic-garden.cloudvent.net/booking/#:~:text=Tag%20or%20label\
       %20headline)"
+JUOZuK3mv2fsD+0HEknH4QXO64Shr8+Csd6ZO2ejAUE: ""
 a-hero-for-a-booking-form-page: Un héroe para una página de formulario de reserva
 a-simple-text-block-for-your-faqs: Un bloque de texto simple para sus preguntas frecuentes
 add-an-optional-button: Agregar un botón opcional
@@ -335,10 +431,15 @@ another-optional-button!: ¡Otro botón opcional!
 bite-sized-information: Información breve
 book-now: Reservar ahora
 booking-form: Formulario de reserva
+choose-a-date: ""
+contact-us: ""
+email-address: ""
 eyebrow-heading: Encabezado de cejas
+full-name: ""
 heading: Título
 icon-card: tarjeta de icono
 large-image-or-video-block: Bloque grande de imagen o video
+markdown:(c)enter-your-copyright-and-terms-and-conditions: ""
 markdown:7JybYfG4GEziEtrTL+cNECyjNbiJfseZBSwW85k+kf8: ""
 markdown:have-a-strong-visual-element-you-want-to-share?-this-component-gives-you-the-flexibility-to-either-add-a-youtube-video-or-an-image:
   ¿Tienes un elemento visual fuerte que quieras compartir? Este componente le
@@ -366,5 +467,8 @@ markdown:sometimes-you-only-need-a-small-amount-of-text-an-icon-section-within-a
 markdown:these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience:
   Estas tarjetas versátiles se pueden utilizar para hablar sobre sus servicios o
   productos, o cualquier otra cosa que desee compartir con su audiencia.
+message: ""
+our-services: ""
+phone-number: ""
 skip-to-contents: Saltar al contenido
 tag-or-label-headline: Título de etiqueta o etiqueta

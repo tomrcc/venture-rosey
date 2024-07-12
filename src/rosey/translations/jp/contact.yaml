@@ -2,12 +2,13 @@ urlTranslation: contact/index.html
 _inputs:
   $:
     type: object
-    comment: "[See contact/](http://localhost:4321/contact/)"
+    comment: "[See contact/](https://epic-garden.cloudvent.net/contact/)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (jp)
-          comment: Text to translate on [contact/](http://localhost:4321/contact/)
+          comment: Text to translate on
+            [contact/](https://epic-garden.cloudvent.net/contact/)
           inputs:
             - add-some-description-text-to-complement-the-block
             - address-1-fake-st-faketown
@@ -19,7 +20,8 @@ _inputs:
             - these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience
             - this-is-a-simple-yet-powerful-block-to-display-not-only-your-location-by-using-openstreetmaps-but-also-any-other-contact-details-you-wish-to-share-with-your-customers
         - heading: Already translated (jp)
-          comment: Text already translated on [contact/](http://localhost:4321/contact/)
+          comment: Text already translated on
+            [contact/](https://epic-garden.cloudvent.net/contact/)
           inputs: []
   add-some-description-text-to-complement-the-block:
     label: Add some description text to complement th...
@@ -27,8 +29,8 @@ _inputs:
     type: textarea
     options: {}
     comment: "[See on
-      page](http://localhost:4321/contact/#:~:text=Add%20some%20description,com\
-      plement%20the%20block)"
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Add%20some%20des\
+      cription,complement%20the%20block)"
     context:
       open: false
       title: Untranslated Text
@@ -40,24 +42,24 @@ _inputs:
     type: textarea
     options: {}
     comment: "[See on
-      page](http://localhost:4321/contact/#:~:text=Address%201%20Fake%20St%20Fa\
-      ketown)"
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Address%201%20Fa\
+      ke%20St%20Faketown)"
   email-address-mybusiness@businesscom:
     label: "Email address: mybusiness@business.com"
     hidden: false
     type: textarea
     options: {}
     comment: "[See on
-      page](http://localhost:4321/contact/#:~:text=Email%20address%20mybusiness\
-      @businesscom)"
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Email%20address%\
+      20mybusiness@businesscom)"
   invite-your-customers-to-get-in-touch-with-you:
     label: Invite your customers to get in touch with...
     hidden: false
     type: textarea
     options: {}
     comment: "[See on
-      page](http://localhost:4321/contact/#:~:text=Invite%20your%20customers,to\
-      uch%20with%20you)"
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Invite%20your%20\
+      customers,touch%20with%20you)"
     context:
       open: false
       title: Untranslated Text
@@ -69,24 +71,24 @@ _inputs:
     type: textarea
     options: {}
     comment: "[See on
-      page](http://localhost:4321/contact/#:~:text=Opening%20hours%209-5pm%20Mo\
-      nday%20to%20Friday)"
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Opening%20hours%\
+      209-5pm%20Monday%20to%20Friday)"
   phone-number-312-325-326:
     label: "Phone number: 312 325 326"
     hidden: false
     type: textarea
     options: {}
     comment: "[See on
-      page](http://localhost:4321/contact/#:~:text=Phone%20number%20312%20325%2\
-      0326)"
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=Phone%20number%2\
+      0312%20325%20326)"
   these-image-cards-combine-a-short-written-message-and-a-strong-visual-image:
     label: These image cards combine a short written ...
     hidden: false
     type: textarea
     options: {}
     comment: "[See on
-      page](http://localhost:4321/contact/#:~:text=These%20image%20cards,strong\
-      %20visual%20image)"
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=These%20image%20\
+      cards,strong%20visual%20image)"
     context:
       open: false
       title: Untranslated Text
@@ -99,8 +101,8 @@ _inputs:
     type: textarea
     options: {}
     comment: "[See on
-      page](http://localhost:4321/contact/#:~:text=These%20versatile%20cards,wi\
-      th%20your%20audience)"
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=These%20versatil\
+      e%20cards,with%20your%20audience)"
     context:
       open: false
       title: Untranslated Text
@@ -113,8 +115,8 @@ _inputs:
     type: textarea
     options: {}
     comment: "[See on
-      page](http://localhost:4321/contact/#:~:text=This%20is%20a,with%20your%20\
-      customers)"
+      page](https://epic-garden.cloudvent.net/contact/#:~:text=This%20is%20a,wi\
+      th%20your%20customers)"
     context:
       open: false
       title: Untranslated Text

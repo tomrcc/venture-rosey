@@ -2,12 +2,13 @@ urlTranslation: booking/index.html
 _inputs:
   $:
     type: object
-    comment: "[See booking/](http://localhost:4321/booking/)"
+    comment: "[See booking/](https://epic-garden.cloudvent.net/booking/)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (jp)
-          comment: Text to translate on [booking/](http://localhost:4321/booking/)
+          comment: Text to translate on
+            [booking/](https://epic-garden.cloudvent.net/booking/)
           inputs:
             - "###-how-do-i-use-the-service?-customers-want-to-know-all-the-inf\
               ormation-before-making-a-final-decision-make-sure-you-provide-it-\
@@ -20,7 +21,8 @@ _inputs:
             - sometimes-you-only-need-a-small-amount-of-text-an-icon-section-within-a-card-grid-is-a-great-option-to-showcase-your-content
             - these-versatile-cards-can-be-used-to-talk-about-your-services-or-products-or-anything-else-you-are-keen-to-share-with-your-audience
         - heading: Already translated (jp)
-          comment: Text already translated on [booking/](http://localhost:4321/booking/)
+          comment: Text already translated on
+            [booking/](https://epic-garden.cloudvent.net/booking/)
           inputs: []
   "###-how-do-i-use-the-service?-customers-want-to-know-all-the-information-before-making-a-final-decision-make-sure-you-provide-it-to-them-###-how-do-i-pay-for-the-service?-let-your-customers-know-if-they-can-pay-by-eftpos-or-credit-cardlessbrgreaterlessbrgreater":
     label: |2-
@@ -31,7 +33,8 @@ _inputs:
     type: textarea
     options: {}
     comment: "[See on
-      page](http://localhost:4321/booking/#:~:text=How%20do,or%20credit%20card)"
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=How%20do,or%20cr\
+      edit%20card)"
     context:
       open: false
       title: Untranslated Text
@@ -55,8 +58,8 @@ _inputs:
     type: textarea
     options: {}
     comment: "[See on
-      page](http://localhost:4321/booking/#:~:text=Have%20a%20strong,or%20an%20\
-      image)"
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Have%20a%20stron\
+      g,or%20an%20image)"
     context:
       open: false
       title: Untranslated Text
@@ -69,8 +72,8 @@ _inputs:
     type: textarea
     options: {}
     comment: "[See on
-      page](http://localhost:4321/booking/#:~:text=Here%20are%20a,best%20way%20\
-      possible)"
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Here%20are%20a,b\
+      est%20way%20possible)"
     context:
       open: false
       title: Untranslated Text
@@ -82,15 +85,15 @@ _inputs:
     hidden: true
     type: text
     options: {}
-    comment: "[See on page](http://localhost:4321/booking/#:~:text=)"
+    comment: "[See on page](https://epic-garden.cloudvent.net/booking/#:~:text=)"
   sometimes-you-only-need-a-small-amount-of-text-an-icon-section-within-a-card-grid-is-a-great-option-to-showcase-your-content:
     label: Sometimes you only need a small amount of ...
     hidden: false
     type: textarea
     options: {}
     comment: "[See on
-      page](http://localhost:4321/booking/#:~:text=Sometimes%20you%20only,showc\
-      ase%20your%20content)"
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=Sometimes%20you%\
+      20only,showcase%20your%20content)"
     context:
       open: false
       title: Untranslated Text
@@ -103,8 +106,8 @@ _inputs:
     type: textarea
     options: {}
     comment: "[See on
-      page](http://localhost:4321/booking/#:~:text=These%20versatile%20cards,wi\
-      th%20your%20audience)"
+      page](https://epic-garden.cloudvent.net/booking/#:~:text=These%20versatil\
+      e%20cards,with%20your%20audience)"
     context:
       open: false
       title: Untranslated Text

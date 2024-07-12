@@ -2,14 +2,15 @@ urlTranslation: components/index.html
 _inputs:
   $:
     type: object
-    comment: "[See components/](http://localhost:4321/components/)"
+    comment: "[See components/](https://epic-garden.cloudvent.net/components/)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (jp)
-          comment: Text to translate on [components/](http://localhost:4321/components/)
+          comment: Text to translate on
+            [components/](https://epic-garden.cloudvent.net/components/)
           inputs: []
         - heading: Already translated (jp)
           comment: Text already translated on
-            [components/](http://localhost:4321/components/)
+            [components/](https://epic-garden.cloudvent.net/components/)
           inputs: []

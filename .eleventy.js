@@ -41,17 +41,16 @@ module.exports = function (eleventyConfig) {
   // Filters
   eleventyConfig.addFilter('markdownify', (markdown) => md.render(markdown));
   eleventyConfig.addFilter('generateRoseyId', (text) => {
-    if (!text) {
+    if (!text || typeof text !== 'string') {
       console.log('No text to generate an id with');
       return;
     }
-    // const markdownText = md.render(text);
     const lowerCaseText = text?.toLowerCase();
     const formattedText = lowerCaseText.replaceAll(
       /(?:__[*#])|\[(.*?)\]\(.*?\)/gm,
       /$1/
     );
-    return slugify(formattedText, { remove: /[.*,:\/]/g });
+    return slugify(formattedText, { remove: /[#.*,:\/]/g });
   });
   eleventyConfig.addFilter('ymlify', (yml) => yaml.load(yml));
   eleventyConfig.addFilter('militaryTime', military_time);

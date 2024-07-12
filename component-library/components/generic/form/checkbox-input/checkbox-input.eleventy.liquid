@@ -7,5 +7,5 @@
       value="{{ label }}"
       {% if checked %}checked{% endif %} 
       {% if required %}required{% endif %} />
-  <label class="{{ c }}__label" for="{{ id }}">{{ label }}{% if required %} *{% endif %}</label>
+  <label class="{{ c }}__label" for="{{ id }}" data-rosey="{{ label | generateRoseyId }}">{{ label }}{% if required %} *{% endif %}</label>
 </div>

@@ -16,6 +16,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
+    position: relative;
   }
 
   &__contents--top {
@@ -138,6 +139,39 @@
     }
   }
 
+  &__lang-list {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: #1b1b1d;
+    padding: 2rem;
+  }
+  &__lang-button {
+    position: relative;
+    margin-left: 1rem;
+    color: white;
+    background: transparent;
+    outline: none;
+    border: none;
+  }
+  &__lang-button svg {
+    width: 64px;
+    color: white;
+  }
+
+  &__lang-list-item {
+    display: flex;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    img {
+      width: 64px;
+    }
+  }
+
   &__burger-menu {
     grid-column: 13 / 14;
     background-color: unset;
@@ -192,25 +226,25 @@
   }
 
   &--close {
-    #{$c}__navlist--wrapper-mobile{
-      grid-template-rows:0fr;
+    #{$c}__navlist--wrapper-mobile {
+      grid-template-rows: 0fr;
       visibility: hidden;
       #{$c}__navlist,
       #{$c}__social-icons {
         transition: opacity 0.1s ease-in;
       }
     }
-    #{$c}__contents--top{
+    #{$c}__contents--top {
       visibility: hidden;
-    } 
+    }
   }
-  &--open {  
-    #{$c}__contents--top{
-      grid-template-rows:1fr;
+  &--open {
+    #{$c}__contents--top {
+      grid-template-rows: 1fr;
       visibility: visible;
-    }  
-    #{$c}__navlist--wrapper-mobile{
-      grid-template-rows:1fr;      
+    }
+    #{$c}__navlist--wrapper-mobile {
+      grid-template-rows: 1fr;
       visibility: visible;
     }
     #{$c}__navlist,
@@ -249,7 +283,7 @@
 
   /* Desktop view */
   @media screen and (min-width: 769px) {
-    position:relative;
+    position: relative;
     height: auto;
     &__contents {
       grid-template-columns: 2fr 3fr;

@@ -14,12 +14,6 @@ locales:
   - code: es
     name: Espanol
     flag: /assets/images/flags/spain-flag-png-large.png
-  - code: de
-    name: Deutsch
-    flag: /assets/images/flags/germany-flag.png
-  - code: fr
-    name: French
-    flag: /assets/images/flags/france-flag.png
   - code: en
     name: English (US)
     flag: /assets/images/flags/usa-flag.jpeg

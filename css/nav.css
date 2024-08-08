@@ -15,6 +15,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
+  position: relative;
 }
 .c-navigation__contents--top {
   display: grid;
@@ -113,6 +114,35 @@
 .c-navigation__navlist__item--active .c-navigation__navlist__item__link {
   border-bottom: 1px solid var(--main-text-color);
   color: var(--main-text-color);
+}
+.c-navigation__lang-list {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background-color: #1b1b1d;
+  padding: 2rem;
+}
+.c-navigation__lang-button {
+  position: relative;
+  margin-left: 1rem;
+  color: white;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.c-navigation__lang-button svg {
+  width: 64px;
+  color: white;
+}
+.c-navigation__lang-list-item {
+  display: flex;
+}
+.c-navigation__lang-list-item a {
+  color: white;
+  text-decoration: none;
+}
+.c-navigation__lang-list-item img {
+  width: 64px;
 }
 .c-navigation__burger-menu {
   grid-column: 13/14;

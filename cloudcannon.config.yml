@@ -5,7 +5,7 @@ paths:
   static: ''
   uploads: assets/uploads
   includes: _includes
-  pages: 'pages'
+  pages: pages
 collections_config:
   data:
     path: _data
@@ -27,7 +27,7 @@ collections_config:
     disable_file_actions: false
     schemas:
       default:
-        path: '.cloudcannon/schemas/page.html'
+        path: .cloudcannon/schemas/page.html
   translations:
     path: rosey/translations
     output: false
